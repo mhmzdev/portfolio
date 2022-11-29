@@ -23,6 +23,13 @@
 
     #chat-btn {
         padding: 4%;
-        padding-top: 20%;
+    }
+
+    .dp {
+        height: 300px;
+    }
+
+    .profile-picture {
+        width: 100%;
     }
 }

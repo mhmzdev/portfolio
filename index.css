@@ -59,7 +59,20 @@
     font-weight: 700;
 }
 
+.stats {
+    float: left;
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.stats-label {
+    color: var(--text-light);
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
 .dp {
-    float: right;
-    height: 400px;
+    border-top-right-radius: 50%;
+    background-color: transparent;
 }
