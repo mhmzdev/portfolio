@@ -1,0 +1,14 @@
+#app-navbar {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 6%;
+}
+
+#navbar-icon {
+    padding: 3%;
+    border-color: transparent;
+}
+
+.navbar-action {
+    width: 120px;
+}

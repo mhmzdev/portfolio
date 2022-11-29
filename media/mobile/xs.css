@@ -1,0 +1,28 @@
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+    #brand {
+        font-size: calc(14px + 1vw);
+    }
+
+    .tag-wrapper {
+        padding: 4%;
+        padding-top: 10%;
+    }
+
+    .name {
+        padding-left: 4%;
+        padding-bottom: 4%;
+    }
+
+    .social-icon {
+        font-size: 50px;
+    }
+
+    .chat {
+        padding-top: 15%;
+    }
+
+    #chat-btn {
+        padding: 4%;
+        padding-top: 20%;
+    }
+}

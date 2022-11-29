@@ -1,0 +1,65 @@
+#chip {
+    background-color: var(--primary-green);
+    width: 10em;
+    height: 2em;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.tag-title {
+    background-color: transparent;
+}
+
+.name {
+    color: white;
+}
+
+#first-name {
+    letter-spacing: 7px;
+    font-weight: 200;
+}
+
+#last-name {
+    font-weight: bold;
+}
+
+.social-icon-row {
+    width: 100%;
+}
+
+.social-icon-wrapper {
+    margin-left: 3%;
+    float: left;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: min-content;
+    font-size: 22px;
+    border-radius: 50%;
+    background-color: var(--bg-dark);
+}
+
+.social-icon {
+    color: var(--primary-green);
+}
+
+.chat {
+    float: left;
+    width: 100%;
+}
+
+#chat-btn {
+    color: var(--primary-green);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.dp {
+    float: right;
+    height: 400px;
+}

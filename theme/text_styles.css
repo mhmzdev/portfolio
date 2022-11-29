@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Agustina';
+    src: url(fonts/agustina.otf);
+}
+
+#brand {
+    font-size: 24px;
+    font-family: 'Agustina';
+}
+
+.heading1 {
+    font-size: 32px;
+}
+
+.heading2 {
+    font-size: 24px;
+}
+
+.body1 {
+    font-size: 18px;
+}
+
+.body2 {
+    font-size: 14px;
+}
+
+.label {
+    font-size: 10px;
+}

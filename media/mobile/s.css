@@ -1,0 +1,5 @@
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+    #brand {
+        font-size: calc(18px + 1vw);
+    }
+}

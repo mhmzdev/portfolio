@@ -1,0 +1,27 @@
+:root {
+    --primary-green: #6EF3A5;
+    --text-light: #7D7E83;
+    --bg: #2D2E32;
+    --bg-dark: #25262A;
+}
+
+* {
+    background-color: var(--bg);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.primary {
+    color: #6EF3A5;
+}
+
+.text-light {
+    color: #7D7E83;
+}
+
+.bg {
+    background-color: #2D2E32;
+}
+
+.bg-dark {
+    background-color: #25262A;
+}
