@@ -30,24 +30,24 @@
 }
 
 .social-icon-wrapper {
-    margin-left: 3%;
     float: left;
+    margin-left: 3%;
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 2%;
     padding-bottom: 2%;
     width: min-content;
-    font-size: 22px;
+    font-size: 18px;
     border-radius: 50%;
     background-color: var(--bg-dark);
 }
 
 .social-icon {
+    background-color: transparent;
     color: var(--primary-green);
 }
 
 .chat {
-    float: left;
     width: 100%;
 }
 
@@ -59,20 +59,30 @@
     font-weight: 700;
 }
 
+.stats-row {
+    padding-top: 10px;
+}
+
+.stats-container {
+    padding-left: 5%;
+    padding-top: 23%;
+}
+
 .stats {
-    float: left;
     color: white;
-    font-weight: 300;
     font-size: 22px;
+    font-weight: 400;
 }
 
 .stats-label {
     color: var(--text-light);
-    letter-spacing: 2px;
-    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.profile-picture {
+    width: 100%;
 }
 
 .dp {
-    border-top-right-radius: 50%;
     background-color: transparent;
 }

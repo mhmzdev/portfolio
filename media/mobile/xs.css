@@ -1,11 +1,15 @@
 @media only screen and (min-width: 320px) and (max-width: 400px) {
+    #app-navbar {
+        padding-left: 2%;
+    }
+
     #brand {
         font-size: calc(14px + 1vw);
     }
 
     .tag-wrapper {
         padding: 4%;
-        padding-top: 10%;
+        padding-top: 5%;
     }
 
     .name {
@@ -13,23 +17,22 @@
         padding-bottom: 4%;
     }
 
-    .social-icon {
-        font-size: 50px;
-    }
-
     .chat {
-        padding-top: 15%;
+        padding-top: 20%;
     }
 
     #chat-btn {
         padding: 4%;
     }
 
-    .dp {
-        height: 300px;
+    .stats-container {
+        padding-top: 5%;
     }
 
-    .profile-picture {
-        width: 100%;
+    .dp {
+        position: absolute;
+        right: -50px;
+        bottom: 0;
+        height: 350px;
     }
 }

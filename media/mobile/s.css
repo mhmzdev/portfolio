@@ -2,4 +2,48 @@
     #brand {
         font-size: calc(18px + 1vw);
     }
+
+    #app-navbar {
+        padding-left: 2%;
+        padding-right: 10%;
+    }
+
+    .tag-wrapper {
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+
+    .name {
+        padding-left: 5%;
+        padding-top: 2%;
+    }
+
+    .social-icons-row {
+        padding-top: 5%;
+    }
+
+    .social-icon-wrapper {
+        padding-left: 4%;
+    }
+
+    .chat {
+        padding-top: 20%;
+        padding-left: 5%;
+    }
+
+    .stats-container {
+        padding-top: 10%;
+    }
+
+    .profile-picture {
+        width: 100%;
+    }
+
+    .dp {
+        right: 0px;
+        position: absolute;
+        bottom: 10%;
+        float: right;
+        height: 350px;
+    }
 }
