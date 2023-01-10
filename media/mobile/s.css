@@ -18,6 +18,28 @@
         padding-top: 2%;
     }
 
+
+    .tag {
+        padding-top: 2%;
+        padding-left: 4%;
+        display: flex;
+    }
+
+    #tag {
+        color: white;
+        padding-left: 1%;
+    }
+
+    .trianlge-right {
+        margin-top: 3px;
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-left: 15px solid var(--primary-green);
+        border-bottom: 8px solid transparent;
+    }
+
+
     .flexbox-container {
         padding-top: 5%;
     }

@@ -9,6 +9,37 @@
         padding-bottom: 3%;
     }
 
+
+    .tag {
+        padding-left: 4%;
+        display: flex;
+    }
+
+    #tag {
+        color: white;
+        padding-left: 1%;
+    }
+
+    .trianlge-right {
+        margin-top: 3px;
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-left: 15px solid var(--primary-green);
+        border-bottom: 8px solid transparent;
+    }
+
+    .dash {
+        margin-left: 4%;
+        background-color: rgb(148, 148, 148);
+        height: 1px;
+        width: 100px;
+    }
+
+    .flexbox-container {
+        align-items: center;
+    }
+
     .social-icon-wrapper {
         padding-left: 1.5%;
         padding-right: 1.5%;
