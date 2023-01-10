@@ -5,6 +5,14 @@
         padding-left: 10%;
     }
 
+    #chip {
+        width: 12em;
+    }
+
+    .tag-title {
+        font-size: 12px;
+    }
+
     .name {
         padding-top: 1%;
         padding-left: 10%;
