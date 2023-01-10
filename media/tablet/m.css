@@ -1,1 +1,60 @@
-@media only screen and (min-width: 481px) and (max-width:768px) {}
+@media only screen and (min-width: 481px) and (max-width:768px) {
+    .tag-wrapper {
+        padding: 4%;
+        padding-top: 5%;
+    }
+
+    .name {
+        padding-left: 4%;
+        padding-bottom: 3%;
+    }
+
+    .social-icon-wrapper {
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        height: 38px;
+        margin-left: 2%;
+    }
+
+
+    .chat {
+        padding-top: 3%;
+    }
+
+    #chat-btn {
+        padding: 4%;
+    }
+
+    .stats-div {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 5%;
+        padding-left: 4%;
+    }
+
+    .stats {
+        display: flex;
+        background-color: transparent;
+    }
+
+    .stats-label-column {
+        padding-left: 4%;
+    }
+
+    .stats-label {
+        width: 130px;
+    }
+
+    .stats-data {
+        padding-top: 5%;
+    }
+
+    .profile-picture {
+        height: 400px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}
