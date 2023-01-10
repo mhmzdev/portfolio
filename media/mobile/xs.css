@@ -17,22 +17,47 @@
         padding-bottom: 4%;
     }
 
+    .social-icon-wrapper {
+        width: 38px;
+        height: 38px;
+    }
+
     .chat {
-        padding-top: 20%;
+        padding-top: 10%;
     }
 
     #chat-btn {
         padding: 4%;
     }
 
-    .stats-container {
-        padding-top: 5%;
+    .stats {
+        display: flex;
+        background-color: transparent;
     }
 
-    .dp {
+    .stats-div {
         position: absolute;
-        right: -50px;
-        bottom: 0;
-        height: 350px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 25%;
     }
+
+    .stats-data {
+        display: flex;
+        margin-left: 5%;
+    }
+
+    .stats-label-column {
+        width: 150px;
+        padding-left: 3%;
+    }
+
+    .profile-picture {
+        height: 350px;
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 110%;
+    }
+
 }

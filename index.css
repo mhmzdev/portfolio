@@ -25,21 +25,20 @@
     font-weight: bold;
 }
 
-.social-icon-row {
-    width: 100%;
+.flexbox-container {
+    display: flex;
 }
 
 .social-icon-wrapper {
-    float: left;
     margin-left: 3%;
     padding-left: 4%;
     padding-right: 4%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    width: min-content;
     font-size: 18px;
     border-radius: 50%;
     background-color: var(--bg-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-icon {
@@ -59,24 +58,26 @@
     font-weight: 700;
 }
 
-.stats-row {
-    padding-top: 10px;
-}
-
-.stats-container {
-    padding-left: 5%;
-    padding-top: 23%;
-}
-
-.stats {
+.value {
     color: white;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 400;
+    background-color: transparent;
+}
+
+.stats-label-column {
+    background-color: transparent;
 }
 
 .stats-label {
     color: var(--text-light);
     letter-spacing: 1px;
+    background-color: transparent;
+}
+
+.image-bg-div {
+    overflow: hidden;
+
 }
 
 .profile-picture {
