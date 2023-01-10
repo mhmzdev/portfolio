@@ -1,7 +1,17 @@
-@media only screen and (min-width:769px) and (max-width:1024px) {
+@media only screen and (min-width:2559px) {
+
     .tag-wrapper {
         padding-top: 10%;
         padding-left: 10%;
+    }
+
+    #chip {
+        width: 20em;
+        height: 3em;
+    }
+
+    .tag-title {
+        font-size: 22px;
     }
 
     .name {
@@ -9,8 +19,10 @@
         padding-left: 10%;
     }
 
-    #first-name, #last-name {
-        font-size: 42px;
+    #first-name,
+    #last-name {
+        font-size: 102px;
+        height: 1.25em;
     }
 
     .tag {
@@ -22,38 +34,42 @@
     #tag {
         color: white;
         padding-left: 1%;
+        font-size: 25px;
     }
 
     .trianlge-right {
         margin-top: 3px;
         width: 0;
         height: 0;
-        border-top: 8px solid transparent;
-        border-left: 15px solid var(--primary-green);
-        border-bottom: 8px solid transparent;
+        border-top: 15px solid transparent;
+        border-left: 25px solid var(--primary-green);
+        border-bottom: 15px solid transparent;
     }
 
+    .flexbox-container {
+        padding-top: 2%;
+    }
 
     .social-icon-wrapper {
-        padding-left: 1.2%;
-        padding-right: 1.2%;
-        height: 38px;
+        height: 68px;
         margin-left: 1.5%;
+        font-size: 28px;
     }
 
     .dash {
         margin-left: 10%;
         background-color: rgb(148, 148, 148);
         height: 1px;
-        width: 100px;
+        width: 15em;
     }
 
     .chat {
-        padding-top: 10%;
+        padding-top: 3%;
     }
 
     #chat-btn {
         padding-left: 10%;
+        font-size: 28px;
     }
 
     .stats-div {
@@ -68,15 +84,20 @@
     }
 
     .stats-data {
-        padding-left: 8%;
+        padding-left: 10%;
     }
 
     .stats-label-column {
-        padding-left: 4%;
+        padding-left: 6%;
+    }
+
+    .value {
+        font-size: 52px;
     }
 
     .stats-label {
         width: max-content;
+        font-size: 20px;
     }
 
     .stats-data {
@@ -84,12 +105,12 @@
     }
 
     .profile-picture {
+        background-color: transparent;
         width: fit-content;
         text-align: right;
-        height: 400px;
         position: absolute;
-        right: 0;
-        bottom: 7%;
+        right: 7%;
+        bottom: 5%;
         float: right;
     }
 }

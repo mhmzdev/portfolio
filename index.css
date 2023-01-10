@@ -27,6 +27,7 @@
 
 .flexbox-container {
     display: flex;
+    align-items: center;
 }
 
 .social-icon-wrapper {
@@ -78,10 +79,6 @@
 .image-bg-div {
     overflow: hidden;
 
-}
-
-.profile-picture {
-    width: 100%;
 }
 
 .dp {
