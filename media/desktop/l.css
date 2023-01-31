@@ -105,4 +105,13 @@
     .dp {
         height: 750px;
     }
+
+    .about {
+        padding-top: 10%;
+    }
+
+
+    .space {
+        padding-top: 25%;
+    }
 }

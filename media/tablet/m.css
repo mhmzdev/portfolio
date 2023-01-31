@@ -95,8 +95,12 @@
         visibility: hidden;
     }
 
+    .space {
+        padding-top: 500px;
+    }
+
     .about {
-        padding-top: 550px;
+        padding-top: 10%;
         flex-direction: column-reverse;
         align-items: center;
     }

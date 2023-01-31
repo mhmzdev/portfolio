@@ -87,7 +87,7 @@
         padding-left: 110%;
         height: 500px;
     }
-    
+
     .circle {
         visibility: hidden;
     }
@@ -97,8 +97,12 @@
         visibility: hidden;
     }
 
+    .space {
+        padding-top: 0px;
+    }
+
     .about {
-        padding-top: 100px;
+        padding-top: 10%;
         flex-direction: column-reverse;
         align-items: center;
     }

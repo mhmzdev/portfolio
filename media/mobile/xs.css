@@ -90,6 +90,10 @@
         visibility: hidden;
     }
 
+    .space {
+        padding-top: 0px;
+    }
+
     .about {
         padding-top: 50px;
         flex-direction: column-reverse;

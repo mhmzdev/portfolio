@@ -78,7 +78,6 @@
 
 .image-bg-div {
     overflow: hidden;
-
 }
 
 .grad-circle {
@@ -120,7 +119,9 @@
 }
 
 .about {
-    padding-top: 25%;
+    background-color: var(--bg-dark);
+    padding-top: 10%;
+    padding-bottom: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,9 +129,11 @@
 
 .about-text {
     padding-left: 5%;
+    background-color: var(--bg-dark);
 }
 
 #about-me-title {
+    background-color: transparent;
     color: var(--primary-green);
     font-weight: bold;
     font-size: 22px;
@@ -140,9 +143,11 @@
     color: white;
     font-weight: 300;
     width: 450px;
+    background-color: transparent;
 }
 
 #about-quote {
+    background-color: transparent;
     color: var(--text-light);
     font-style: italic;
     font-size: 12px;
@@ -151,6 +156,7 @@
 }
 
 #about-me-text {
+    background-color: transparent;
     width: 500px;
     color: white;
     padding-top: 5%;
@@ -163,4 +169,12 @@
     padding-left: 15px;
     padding-right: 15px;
     background-color: var(--primary-green);
+}
+
+.download-resume {
+    background-color: transparent;
+}
+
+#about-img {
+    background-color: var(--bg-dark);
 }

@@ -102,8 +102,12 @@
         height: 700px;
     }
 
+    .space {
+        padding-top: 330px;
+    }
+
     .about {
-        padding-top: 500px;
+        padding-top: 10%;
         flex-direction: column-reverse;
         align-items: center;
     }

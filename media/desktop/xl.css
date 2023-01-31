@@ -110,4 +110,8 @@
     .dp {
         height: 750px;
     }
+
+    .space {
+        padding-top: 18%;
+    }
 }
