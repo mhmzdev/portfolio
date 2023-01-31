@@ -83,6 +83,10 @@
         padding-top: 5%;
     }
 
+    .grad-circle {
+        visibility: hidden;
+    }
+
     .profile-picture {
         width: fit-content;
         text-align: right;

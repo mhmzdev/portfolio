@@ -88,4 +88,8 @@
         right: 0;
     }
 
+    .circle {
+        visibility: hidden;
+    }
+
 }
