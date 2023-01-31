@@ -132,7 +132,8 @@
     background-color: var(--bg-dark);
 }
 
-#about-me-title {
+#about-me-title,
+#tech-stack-title {
     background-color: transparent;
     color: var(--primary-green);
     font-weight: bold;
@@ -177,4 +178,54 @@
 
 #about-img {
     background-color: var(--bg-dark);
+}
+
+.tech-stack {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 8%;
+}
+
+#tech-stack-text {
+    color: white;
+    width: 400px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.stack-illustration {
+    padding-left: 5%;
+}
+
+.label-stack {
+    font-size: 10px;
+    color: var(--text-light);
+}
+
+.tech-icon {
+    background-color: transparent;
+}
+
+.tech-label {
+    color: black;
+    background-color: transparent;
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.tech {
+    margin-bottom: 15px;
+    width: max-content;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: var(--primary-green);
+}
+
+.tech-row {
+    display: flex;
+    flex-wrap: wrap;
 }
