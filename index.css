@@ -1,3 +1,17 @@
+#app-navbar {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 6%;
+}
+
+#navbar-icon {
+    border-color: transparent;
+}
+
+.navbar-action {
+    width: 120px;
+}
+
 #chip {
     background-color: var(--primary-green);
     width: 10em;
@@ -125,6 +139,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.about-img {
+    background-color: transparent;
 }
 
 .about-text {

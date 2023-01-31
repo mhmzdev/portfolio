@@ -128,4 +128,12 @@
         align-items: center;
         padding-bottom: 5%;
     }
+
+    .tech-stack {
+        flex-direction: column;
+    }
+
+    #stack-illustration {
+        height: 300px;
+    }
 }

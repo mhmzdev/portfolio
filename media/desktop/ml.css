@@ -129,4 +129,8 @@
         align-items: center;
         padding-bottom: 5%;
     }
+
+    #stack-illustration {
+        height: 350px;
+    }
 }

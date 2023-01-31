@@ -128,4 +128,19 @@
         padding-bottom: 5%;
     }
 
+    .tech-stack {
+        flex-direction: column;
+    }
+
+    .tech-stack-details {
+        width: 100%;
+    }
+
+    .stack-illustration {
+        padding: 0px;
+    }
+
+    #stack-illustration {
+        height: 300px;
+    }
 }
