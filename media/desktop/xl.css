@@ -101,10 +101,13 @@
     .profile-picture {
         width: fit-content;
         text-align: right;
-        height: 400px;
         position: absolute;
         right: 7%;
-        bottom: 7%;
+        bottom: 0;
         float: right;
+    }
+
+    .dp {
+        height: 750px;
     }
 }

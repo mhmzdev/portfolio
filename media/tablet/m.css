@@ -79,9 +79,13 @@
     }
 
     .profile-picture {
-        height: 400px;
+        height: 500px;
         display: flex;
-        justify-content: flex-end;
+        float: right;
+        position: absolute;
+        text-align: right;
+        bottom: 10%;
+        right: 0;
     }
 
 }

@@ -105,12 +105,15 @@
     }
 
     .profile-picture {
-        background-color: transparent;
         width: fit-content;
         text-align: right;
-        position: absolute;
         right: 7%;
-        bottom: 5%;
+        bottom: 0;
         float: right;
+        height: 1200px;
+    }
+
+    .dp {
+        height: 1200px;
     }
 }

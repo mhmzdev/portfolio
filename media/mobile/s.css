@@ -85,7 +85,7 @@
         display: flex;
         justify-content: flex-end;
         padding-left: 110%;
-        padding-top: 25%;
+        height: 500px;
     }
 
 }

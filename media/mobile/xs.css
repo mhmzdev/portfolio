@@ -76,10 +76,11 @@
     }
 
     .profile-picture {
-        height: 350px;
+        height: 450px;
         display: flex;
         justify-content: flex-end;
         padding-left: 110%;
+        padding-top: 20%;
     }
 
 }
