@@ -9,7 +9,8 @@
         padding-left: 10%;
     }
 
-    #first-name, #last-name {
+    #first-name,
+    #last-name {
         font-size: 42px;
     }
 
@@ -59,7 +60,7 @@
     .stats-div {
         position: absolute;
         padding-left: 7%;
-        bottom: 3%;
+        bottom: 5%;
     }
 
     .stats {
@@ -99,5 +100,29 @@
 
     .dp {
         height: 700px;
+    }
+
+    .about {
+        padding-top: 500px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    #about-me-heading,
+    #about-quote,
+    #about-me-text {
+        text-align: center;
+        width: 500px;
+    }
+
+    .download-resume {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
     }
 }

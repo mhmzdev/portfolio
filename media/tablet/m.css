@@ -84,7 +84,6 @@
         float: right;
         position: absolute;
         text-align: right;
-        bottom: 10%;
         right: 0;
     }
 
@@ -92,4 +91,32 @@
         visibility: hidden;
     }
 
+    .grad-circle {
+        visibility: hidden;
+    }
+
+    .about {
+        padding-top: 550px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+
+    .about-text {
+        text-align: center;
+    }
+
+    #about-me-heading,
+    #about-quote,
+    #about-me-text {
+        text-align: center;
+        width: 500px;
+    }
+
+    .download-resume {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+    }
 }

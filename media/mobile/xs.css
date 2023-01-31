@@ -76,11 +76,52 @@
     }
 
     .profile-picture {
-        height: 450px;
+        height: 400px;
         display: flex;
         justify-content: flex-end;
         padding-left: 110%;
-        padding-top: 20%;
+    }
+
+    .grad-circle {
+        visibility: hidden;
+    }
+
+    .circle {
+        visibility: hidden;
+    }
+
+    .about {
+        padding-top: 50px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #about-img {
+        width: 90%;
+    }
+
+
+    .about-text {
+        text-align: center;
+    }
+
+    #about-me-heading,
+    #about-quote,
+    #about-me-text {
+        text-align: center;
+        width: 90%;
+    }
+
+    #about-me-text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .download-resume {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
     }
 
 }

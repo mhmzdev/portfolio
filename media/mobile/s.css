@@ -87,5 +87,41 @@
         padding-left: 110%;
         height: 500px;
     }
+    
+    .circle {
+        visibility: hidden;
+    }
 
+
+    .grad-circle {
+        visibility: hidden;
+    }
+
+    .about {
+        padding-top: 100px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #about-img {
+        width: 90%;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    #about-me-heading,
+    #about-quote,
+    #about-me-text {
+        text-align: center;
+        width: 90%;
+    }
+
+    .download-resume {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+    }
 }

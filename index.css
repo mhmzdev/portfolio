@@ -118,3 +118,49 @@
 #circle-2 {
     right: 40%;
 }
+
+.about {
+    padding-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    padding-left: 5%;
+}
+
+#about-me-title {
+    color: var(--primary-green);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#about-me-heading {
+    color: white;
+    font-weight: 300;
+    width: 450px;
+}
+
+#about-quote {
+    color: var(--text-light);
+    font-style: italic;
+    font-size: 12px;
+    width: 400px;
+    padding-top: 5%;
+}
+
+#about-me-text {
+    width: 500px;
+    color: white;
+    padding-top: 5%;
+    line-height: 30px;
+}
+
+#download-btn {
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: var(--primary-green);
+}
