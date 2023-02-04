@@ -77,7 +77,11 @@
     }
 
     .grad-circle {
-        visibility: hidden;
+        top: 25%;
+        right: 1%;
+        height: 450px;
+        width: 450px;
+        position: absolute;
     }
 
     .profile-picture {

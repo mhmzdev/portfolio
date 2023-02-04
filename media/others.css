@@ -4,3 +4,9 @@
         padding-top: 18%;
     }
 }
+
+@media only screen and (max-width: 900px) {
+    .grad-circle {
+        visibility: hidden;
+    }
+}
