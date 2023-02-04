@@ -76,12 +76,11 @@
     }
 
     .profile-picture {
-        height: 500px;
-        display: flex;
-        float: right;
-        position: absolute;
-        text-align: right;
         right: 0;
+    }
+
+    .dp {
+        height: 600px;
     }
 
     .circle {

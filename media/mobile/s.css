@@ -68,12 +68,13 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        padding-top: 25%;
+        padding-top: 5%;
     }
 
     .stats-data {
         display: flex;
-        margin-left: 5%;
+        margin-left: 8%;
+        padding-top: 5%;
     }
 
     .stats-label-column {
@@ -82,10 +83,11 @@
     }
 
     .profile-picture {
-        display: flex;
-        justify-content: flex-end;
-        padding-left: 110%;
-        height: 500px;
+        right: -10%;
+    }
+
+    .dp {
+        height: 550px;
     }
 
     .circle {
