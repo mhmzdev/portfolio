@@ -9,4 +9,8 @@
     .grad-circle {
         visibility: hidden;
     }
+
+    .circle {
+        visibility: hidden;
+    }
 }
