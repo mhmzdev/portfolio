@@ -90,15 +90,6 @@
         padding-top: 5%;
     }
 
-    .profile-picture {
-        width: fit-content;
-        text-align: right;
-        position: absolute;
-        right: 7%;
-        bottom: 0;
-        float: right;
-    }
-
     .dp {
         height: 750px;
     }

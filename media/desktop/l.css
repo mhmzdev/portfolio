@@ -80,22 +80,18 @@
     }
 
     .grad-circle {
+        top: 25%;
         height: 500px;
         width: 500px;
         right: 0;
     }
 
     .profile-picture {
-        width: fit-content;
-        text-align: right;
-        position: absolute;
-        right: 0;
-        bottom: 5%;
-        float: right;
+        right: 1%;
     }
 
     .dp {
-        height: 750px;
+        height: 700px;
     }
 
     .about {

@@ -109,6 +109,12 @@
     top: 8%;
 }
 
+.profile-picture {
+    right: 7%;
+    bottom: 0;
+    position: absolute;
+}
+
 .profile-picture,
 .dp {
     background-color: transparent;
