@@ -102,4 +102,9 @@
     .space {
         padding-top: 25%;
     }
+
+    .projects {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
 }

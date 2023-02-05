@@ -97,4 +97,9 @@
     .space {
         padding-top: 18%;
     }
+
+    .projects {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
 }
