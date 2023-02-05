@@ -595,3 +595,20 @@
     justify-content: center;
     align-items: center;
 }
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-dark);
+    height: 60px;
+}
+
+.foot-text {
+    color: white
+}
+
+.foot-name {
+    margin-left: 5px;
+    color: var(--primary-green);
+}
