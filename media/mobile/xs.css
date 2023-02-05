@@ -137,4 +137,16 @@
     #stack-illustration {
         height: 300px;
     }
+
+    .exp-card {
+        width: 95%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        flex-direction: column;
+    }
+
+    .exp-detail {
+        padding: 0;
+        width: 100%
+    }
 }
