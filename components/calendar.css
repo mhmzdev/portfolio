@@ -1,0 +1,87 @@
+.calendar-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar {
+    padding: 5%;
+    border-radius: 8px;
+    height: 400px;
+    width: 500px;
+    background-color: var(--bg-dark);
+}
+
+.year {
+    background-color: transparent;
+    padding-bottom: 15px;
+}
+
+.year-txt {
+    background-color: transparent;
+    color: var(--text-light);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.year-num {
+    background-color: transparent;
+    color: var(--text-light);
+    font-size: 28px;
+}
+
+#year-chev-icon-left,
+#year-chev-icon-right {
+    background-color: transparent;
+    color: var(--text-light);
+}
+
+#year-chev-icon-left {
+    width: 7%;
+    margin-left: 40%;
+}
+
+.weeks,
+.dates {
+    background-color: transparent;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.dates {
+    padding-top: 15px;
+}
+
+.day,
+.date {
+    background-color: transparent;
+    color: var(--text-light);
+    width: 20px;
+}
+
+.active {
+    border-radius: 2px;
+    background-color: var(--primary-green);
+}
+
+#meet-btn {
+    width: 100%;
+    margin-top: 5%;
+    padding: 3%;
+    background-color: var(--primary-green);
+}
+
+#meet-icon {
+    background-color: transparent;
+    color: var(--bg-dark);
+    font-size: 20px;
+}
+
+#meet-btn-text {
+    background-color: transparent;
+    color: var(--bg-dark);
+    padding-left: 1%;
+    font-size: 18px;
+}

@@ -7,10 +7,15 @@
     justify-content: center;
 }
 
+.contact-info-div {
+    padding-left: 10%;
+}
+
 .contact-row {
     display: flex;
     justify-self: center;
     align-items: center;
+    padding-top: 5%;
 }
 
 .contact-card {

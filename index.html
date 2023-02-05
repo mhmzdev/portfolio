@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="css/community.css">
     <link rel="stylesheet" href="css/contact.css">
 
+    <link rel="stylesheet" href="components/calendar.css">
+
     <!-- Required for AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -55,6 +57,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- icons -->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
 
@@ -610,7 +613,83 @@
         </p>
 
         <div class="contact-row">
-            <div class="calendar"></div>
+            <div class="calendar-div">
+                <div class="calendar">
+                    <div class="year">
+                        <span class="year-txt">September</span>
+                        <span class="year-num">1997</span>
+                        <i id="year-chev-icon-left" class="fa fa-chevron-left"></i>
+                        <i id="year-chev-icon-right" class="fa fa-chevron-right"></i>
+                    </div>
+
+                    <ul class="weeks">
+                        <li class="day">Sun</li>
+                        <li class="day">Mon</li>
+                        <li class="day">Tue</li>
+                        <li class="day">Wed</li>
+                        <li class="day">Thu</li>
+                        <li class="day">Fri</li>
+                        <li class="day">Sat</li>
+                    </ul>
+
+                    <ul class="dates">
+                        <li class="date">29</li>
+                        <li class="date">30</li>
+                        <li class="date">31</li>
+                        <li class="date">1</li>
+                        <li class="date">2</li>
+                        <li class="date">3</li>
+                        <li class="date">4</li>
+                    </ul>
+
+                    <ul class="dates">
+                        <li class="date">5</li>
+                        <li class="date">6</li>
+                        <li class="date">7</li>
+                        <li class="date">8</li>
+                        <li class="date">9</li>
+                        <li class="date">10</li>
+                        <li class="date">11</li>
+                    </ul>
+
+                    <ul class="dates">
+                        <li class="date">12</li>
+                        <li class="date">13</li>
+                        <li class="date">14</li>
+                        <li class="date">15</li>
+                        <li class="date">16</li>
+                        <li class="date">17</li>
+                        <li class="date">18</li>
+                    </ul>
+
+                    <ul class="dates">
+                        <li class="date">19</li>
+                        <li class="date">20</li>
+                        <li class="date">21</li>
+                        <li class="date">22</li>
+                        <li class="date">23</li>
+                        <li class="date">24</li>
+                        <li class="date">25</li>
+                    </ul>
+
+                    <ul class="dates">
+                        <li class="date">26</li>
+                        <li class="date">27</li>
+                        <li class="date">28</li>
+                        <li class="date active">29</li>
+                        <li class="date">30</li>
+                        <li class="date">31</li>
+                        <li class="date">1</li>
+                    </ul>
+
+                </div>
+
+                <button type="button" class="btn btn-success" id="meet-btn">
+                   <i id="meet-icon" class="fa fa-video-camera"></i>
+                    <span id="meet-btn-text">Let's have a 15 min call</span>
+                </button>
+            </div>
+
             <div class="contact-info-div">
                 <div class="contact-card">
                     <i id="mail-icon" class="fa fa-envelope"></i>
@@ -662,6 +741,7 @@
 
     <!-- custom scripts -->
     <script type="text/javascript" src="js/typeWriter.js"></script>
+    <script type="text/javascript" src="js/calendar.js" defer></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/animate.js"></script>

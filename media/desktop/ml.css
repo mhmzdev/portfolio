@@ -85,17 +85,11 @@
     }
 
     .profile-picture {
-        width: fit-content;
-        text-align: right;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        float: right;
-        background-color: transparent;
+        right: 5%;
     }
 
     .dp {
-        height: 700px;
+        height: 450px;
     }
 
     .space {
