@@ -10,20 +10,25 @@
 
 .heading1 {
     font-size: 32px;
+    background-color: transparent;
 }
 
 .heading2 {
     font-size: 24px;
+    background-color: transparent;
 }
 
 .body1 {
     font-size: 18px;
+    background-color: transparent;
 }
 
 .body2 {
     font-size: 14px;
+    background-color: transparent;
 }
 
 .label {
     font-size: 10px;
+    background-color: transparent;
 }
