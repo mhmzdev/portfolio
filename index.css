@@ -419,3 +419,52 @@
 .exp-detail-item {
     color: white;
 }
+
+.communities {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.community-div {
+    padding: 5%;
+    background-color: var(--bg-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.community-card {
+    margin-top: 4%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: var(--bg);
+    width: 500px;
+    padding: 1%;
+    padding-left: 10%;
+    border-radius: 8px;
+}
+
+.community-logo {
+    height: 80px;
+}
+
+.community-info {
+    margin-left: 5%;
+    padding-top: 8%;
+}
+
+.c-title {
+    line-height: 0;
+    color: var(--primary-green);
+}
+
+.c-position {
+    color: white;
+    font-weight: 700;
+}
+
+.c-session {
+    color: var(--text-light)
+}
