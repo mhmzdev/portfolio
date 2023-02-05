@@ -17,10 +17,10 @@
     width: 650px;
     background-image: linear-gradient(var(--bg-dark), var(--bg));
     position: absolute;
-    top: 20%;
+    top: 25%;
     right: 2%;
     border-radius: 360px;
-    animation: beat .8s infinite alternate;
+    animation: beat 2s;
     transform-origin: center;
 }
 
@@ -31,8 +31,12 @@
 }
 
 @keyframes beat {
+    from {
+        transform: scale(0.0);
+    }
+
     to {
-        transform: scale(1.03);
+        transform: scale(1);
     }
 }
 
@@ -42,16 +46,9 @@
     background-color: var(--primary-green);
     border-radius: 360px;
     position: absolute;
-    animation: greenBeat 1s infinite alternate;
+    animation: beat 2s;
     transform-origin: center;
 }
-
-@keyframes greenBeat {
-    to {
-        transform: scale(1.3);
-    }
-}
-
 
 #circle-1 {
     margin-top: 2%;
@@ -60,7 +57,7 @@
 
 #circle-2 {
     top: 60%;
-    right: 35%;
+    right: 30%;
 }
 
 .foot {

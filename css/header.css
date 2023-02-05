@@ -38,6 +38,7 @@
 .flexbox-container {
     display: flex;
     align-items: center;
+    height: 70px;
 }
 
 .social-icon-wrapper {
@@ -49,11 +50,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: beat 1s;
+}
+
+@keyframes beat {
+    from {
+        transform: scale(0.0);
+    }
+
+    to {
+        transform: scale(1);
+    }
 }
 
 .social-icon-wrapper:hover {
-    font-size: 22px;
-    transition: .3s;
+    font-size: 24px;
+    transition: .4s;
 }
 
 .social-icon {
@@ -96,7 +108,7 @@
 
 
 .profile-picture {
-    right: 7%;
+    right: 8%;
     bottom: 0;
     position: absolute;
 }
