@@ -135,4 +135,28 @@
         padding-left: 0%;
         padding-right: 0%;
     }
+
+    .community-card {
+        width: 450px;
+    }
+
+    .cw-number {
+        font-size: 20px;
+    }
+
+    .cw-stats-row {
+        flex-wrap: nowrap;
+    }
+
+    .cw-stats-text {
+        font-size: 10px;
+    }
+
+    .communitites {
+        margin-left: 0%;
+    }
+
+    .cw-info {
+        width: 43%;
+    }
 }

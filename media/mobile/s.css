@@ -141,4 +141,18 @@
         padding: 0;
         width: 100%
     }
+
+    .community-div {
+        flex-direction: column-reverse;
+    }
+
+    .cw-info {
+        width: 100%;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .cw-stats-div {
+        max-width: 100%;
+    }
 }

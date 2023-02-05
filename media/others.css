@@ -3,6 +3,12 @@
     .space {
         padding-top: 18%;
     }
+
+    .cw-stats-row {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -12,5 +18,23 @@
 
     .circle {
         visibility: hidden;
+    }
+
+    .cw-stats-row {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cw-info {
+        width: 90%;
+    }
+    
+    .cw-stats-row {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 }

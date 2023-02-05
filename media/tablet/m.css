@@ -116,8 +116,21 @@
         flex-direction: column;
     }
 
-
     #stack-illustration {
         height: 350px;
+    }
+
+    .community-div {
+        flex-direction: column-reverse;
+    }
+
+    .cw-info {
+        width: 80%;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .cw-stats-div {
+        max-width: 100%;
     }
 }
