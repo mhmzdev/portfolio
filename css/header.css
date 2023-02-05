@@ -51,6 +51,11 @@
     align-items: center;
 }
 
+.social-icon-wrapper:hover {
+    font-size: 22px;
+    transition: .3s;
+}
+
 .social-icon {
     background-color: transparent;
     color: var(--primary-green);
