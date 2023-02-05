@@ -528,3 +528,70 @@
     color: white;
     line-height: 35px;
 }
+
+.contact-div {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-row {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.contact-card {
+    margin-top: 4%;
+    width: 400px;
+    height: 80px;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color: var(--bg-dark);
+}
+
+#mail-icon {
+    font-size: 24px;
+    background-color: transparent;
+    color: var(--primary-green);
+}
+
+.contact-label {
+    margin-left: 5%;
+    color: var(--primary-green);
+    width: 100%;
+}
+
+#chevron-icon {
+    background-color: transparent;
+    color: var(--primary-green);
+}
+
+.line {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    border: solid 0.1px var(--bg-dark);
+}
+
+.social-contact-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-icon-wrapper {
+    background-color: var(--bg-dark);
+    padding: 2%;
+    border-radius: 50%;
+    background-color: var(--bg-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
