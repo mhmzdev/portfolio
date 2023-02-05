@@ -31,6 +31,7 @@
 }
 
 #last-name {
+    line-height: 40px;
     font-weight: bold;
 }
 
@@ -88,21 +89,6 @@
     overflow: hidden;
 }
 
-.grad-circle {
-    height: 650px;
-    width: 650px;
-    background-image: linear-gradient(var(--bg-dark), var(--bg));
-    position: absolute;
-    top: 20%;
-    right: 2%;
-    border-radius: 360px;
-}
-
-#mini-circle {
-    height: 100px;
-    width: 100px;
-    top: 8%;
-}
 
 .profile-picture {
     right: 7%;
@@ -113,22 +99,4 @@
 .profile-picture,
 .dp {
     background-color: transparent;
-}
-
-.circle {
-    height: 20px;
-    width: 20px;
-    background-color: var(--primary-green);
-    border-radius: 360px;
-    position: absolute;
-}
-
-#circle-1 {
-    margin-top: 2%;
-    right: 6%;
-}
-
-#circle-2 {
-    top: 60%;
-    right: 35%;
 }
