@@ -59,13 +59,3 @@
     display: flex;
     justify-content: space-around;
 }
-
-.contact-icon-wrapper {
-    background-color: var(--bg-dark);
-    padding: 2%;
-    border-radius: 50%;
-    background-color: var(--bg-dark);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
