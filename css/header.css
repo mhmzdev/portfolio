@@ -41,6 +41,18 @@
     height: 70px;
 }
 
+.social-icon-wrapper {
+    margin-left: 1%;
+    padding: 0.75%;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: var(--bg-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: beat 1s;
+}
+
 @keyframes beat {
     from {
         transform: scale(0.0);
@@ -54,6 +66,11 @@
 .social-icon-wrapper:hover {
     font-size: 24px;
     transition: .4s;
+}
+
+.social-icon {
+    background-color: transparent;
+    color: var(--primary-green);
 }
 
 .chat {

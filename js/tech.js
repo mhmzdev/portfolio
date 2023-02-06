@@ -101,30 +101,17 @@ $(document).ready(function () {
         // div
         var techDiv = document.createElement("div");
         techDiv.className = "tech";
-        techDiv.style.marginBottom = "15px";
-        techDiv.style.maxWidth = "max-content";
-        techDiv.style.marginRight = "15px";
-        if (tech[i]["name"] == "Node.js") {
-            techDiv.style.paddingLeft = "5px";
-            techDiv.style.paddingRight = "5px";
-        } else {
-            techDiv.style.padding = "5px";
-        }
-        techDiv.style.borderRadius = "6px";
-        techDiv.style.backgroundColor = "#6EF3A5";
 
         // icon
         var techIconImg = document.createElement("img");
         techIconImg.className = "tech-icon";
-        techIconImg.style.backgroundColor = "#ffffff00";
+        if (tech[i]["name"] == "Node.js") {
+            techIconImg.style.height = "20px";
+        }
 
         // tech name
         var techName = document.createElement("span");
         techName.className = "tech-label";
-        techName.style.color = "black";
-        techName.style.backgroundColor = "#ffffff00";
-        techName.style.fontSize = "14px";
-        techName.style.paddingRight = "5px";
 
         techIconImg.src = tech[i]["icon"];
         techIconImg.alt = tech[i]["name"];
@@ -132,8 +119,6 @@ $(document).ready(function () {
         techName.innerHTML = tech[i]["name"];
 
         var relatedDiv = document.getElementById(tech[i]["type"]);
-        relatedDiv.style.display = "flex";
-        relatedDiv.style.flexWrap = "wrap";
 
         techDiv.appendChild(techIconImg);
         techDiv.appendChild(techName);

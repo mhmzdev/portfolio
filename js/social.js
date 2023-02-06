@@ -31,31 +31,8 @@ $(document).ready(function () {
         var div = document.createElement("div");
         div.className = "social-icon-wrapper";
 
-        div.style.marginLeft = "1%";
-        div.style.padding = "0.75%";
-        div.style.fontSize = "18px";
-        div.style.borderRadius = "50%";
-        div.style.backgroundColor = "#25262A";
-        div.style.display = "flex";
-        div.style.justifyContent = "center";
-        div.style.alignItems = "center";
-        div.style.animation = "beat 1s";
-
-        div.onmouseover = function (event) {
-            div.style.fontSize = "24px";
-            div.style.transition = "0.4s";
-        }
-
-        div.onmouseout = function (event) {
-            div.style.fontSize = "18px";
-            div.style.transition = "0.4s";
-        }
-
         var icon = document.createElement("i");
         icon.className = "social-icon " + socials[i]["icon"];
-
-        icon.style.backgroundColor = "#ffffff00";
-        icon.style.color = "#6EF3A5";
 
         div.appendChild(icon);
 
@@ -66,22 +43,10 @@ $(document).ready(function () {
     for (var i = 0; i < socials.length; i++) {
         var div = document.createElement("div");
         div.className = "social-icon-wrapper";
-
-        div.style.marginLeft = "1%";
         div.style.padding = "2%";
-        div.style.fontSize = "18px";
-        div.style.borderRadius = "50%";
-        div.style.backgroundColor = "#25262A";
-        div.style.display = "flex";
-        div.style.justifyContent = "center";
-        div.style.alignItems = "center";
-        div.style.animation = "beat 1s";
 
         var icon = document.createElement("i");
         icon.className = "social-icon " + socials[i]["icon"];
-
-        icon.style.backgroundColor = "#ffffff00";
-        icon.style.color = "#6EF3A5";
 
         div.appendChild(icon);
 

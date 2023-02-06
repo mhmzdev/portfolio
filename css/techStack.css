@@ -7,6 +7,27 @@
     padding-left: 8%;
 }
 
+.tech {
+    padding: 5px;
+    margin-bottom: 15px;
+    max-width: max-content;
+    margin-right: 15px;
+    border-radius: 6px;
+    background-color: var(--primary-green);
+}
+
+.tech-icon {
+    background-color: transparent;
+}
+
+.tech-label {
+    color: black;
+    background-color: transparent;
+    font-size: 14px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
 #tech-stack-text {
     color: white;
     width: 400px;
