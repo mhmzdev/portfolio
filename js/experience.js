@@ -10,34 +10,83 @@ $(document).ready(function () {
                 "GitHub Actions",
                 "Supabase",
                 "Firebase",
-                "Fintech - Payments"
+                "Fintech - Payments",
+                "REST APIs",
+                "Dart package",
             ],
             "details": [
-                "Some point here, that will be updated in a while after testing",
-                "Some point here, that will be updated in a while after testing",
-                "Some point here, that will be updated in a while after testing",
-                "Some point here, that will be updated in a while after testing"
+                "Working with flutter_bloc state management, alongside provider to maintain local states and global use cases",
+                "Integrated payment gateways into flutter app with REST APIs",
+                "Handled local packages to maintain custom components and to maintain API architecture",
+                "Maintaining layered architecture for better encapsulation and abstraction of code from Application layer to domain layer and to data layer",
+                "Learned GitHub actions for CI/CD",
+                "Worked with various env. flavors in flutter app (dev, qa, stage, prod)",
+                "Learned concepts like ACL (Access Control List) for maintaing features in live app",
+                "Integration of REST APIs, Firebase and local cached concepts for better user experience",
+                "Added features in huge code base with scalability in mind, along with other concepts of OOP and design pattern.",
+                "Learned project management tools like Jira and Mural",
+                "Worked in Agile software methodology, worked in sprints and different team structures like Squads."
             ]
         },
         {
-            "org": "Sastaticket.pk",
-            "position": "Associate Software Engineer",
-            "duration": "Jan 2022 - Present",
+            "org": "Voxlabs",
+            "position": "Flutter/Dart Intern",
+            "duration": "Oct 2021 - Jan 2022",
             "technologies": [
                 "Flutter",
                 "Dart",
-                "GitHub Actions",
                 "Supabase",
                 "Firebase",
-                "Fintech - Payments"
             ],
             "details": [
-                "Some point here, that will be updated in a while after testing",
-                "Some point here, that will be updated in a while after testing",
-                "Some point here, that will be updated in a while after testing",
-                "Some point here, that will be updated in a while after testing"
+                "Learned state management concepts like Bloc, futter bloc and provider",
+                "Worked with layered architecture",
+                "Integrated Supabase in flutter app",
+                "Used external packages for managing form input concepts - flutter_form_builder",
+                "Learned GitHub (Version Controlling) with a team, concepts like maintaining PRs, branches etc.",
+                "Improved concepts of reusable components",
             ]
-        }
+        },
+        {
+            "org": "Storius",
+            "position": "Flutter/Dart Intern",
+            "duration": "Nov 2020 - Jan 2021",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "App script",
+                "Google maps",
+            ],
+            "details": [
+                "Developed first BETA version of storius app",
+                "Integrated Google sheets with App scripts that act as SQL database",
+                "Managed two different source of data into the app to overcome the place of Firebase",
+                "Learned and implemented MVC architecture for production level of application",
+                "Integrated Google maps, live markers and interaction of users with it",
+                "Added audio players on Google maps posted by users",
+            ]
+        },
+        {
+            "org": "Multi TeleSoft",
+            "position": "Flutter Developer",
+            "duration": "Fev 2020 - Apr 2020",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "Google maps",
+                "SMS integration",
+                "Live locations",
+                "Firebase auth",
+                "Firebase real-time",
+            ],
+            "details": [
+                "Learned real-time location alerts using firebase real-time db",
+                "Integrated Google Maps",
+                "Firebase authenticaion via phone number",
+                "MVC architecture based application",
+                "Deployment on play store",
+            ]
+        },
     ];
 
     for (var i = 0; i < exp.length; i++) {
