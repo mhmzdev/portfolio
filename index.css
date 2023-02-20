@@ -12,6 +12,55 @@
     width: 120px;
 }
 
+.navbar-dark .nav-item>.nav-link.active {
+    color: var(--primary-green) !important;
+    text-decoration: underline;
+}
+
+nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
+    color: var(--primary-green) !important;
+    transition: .5s;
+}
+
+
+.up {
+    position: fixed;
+    right: 0%;
+    bottom: 2%;
+    background-color: var(--bg-dark);
+    padding: 15px;
+    padding-left: 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    animation: pulse2 2s infinite;
+    cursor: pointer;
+}
+
+#up-icon {
+    background-color: transparent;
+    color: white;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 white;
+    }
+
+    100% {
+        box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        box-shadow: 0 0 0 0 var(--primary-green);
+    }
+
+    100% {
+        box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
+    }
+}
+
 .grad-circle {
     height: 650px;
     width: 650px;
