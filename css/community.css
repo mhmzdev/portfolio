@@ -28,7 +28,7 @@
 }
 
 .community-card:hover {
-    box-shadow: 0px 5px 10px var(--primary-green);
+    box-shadow: 0px 0px 10px var(--primary-green);
     cursor: default;
 }
 

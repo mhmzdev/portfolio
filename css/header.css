@@ -79,11 +79,16 @@
 }
 
 #chat-btn {
+    background-color: transparent;
     color: var(--primary-green);
     text-decoration: underline;
     text-underline-offset: 10px;
     letter-spacing: 2px;
     font-weight: 700;
+}
+
+#chat-btn:hover {
+    font-size: 22px;
 }
 
 .value {

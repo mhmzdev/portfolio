@@ -9,19 +9,18 @@
 }
 
 .navbar-action {
-    width: 120px;
+    width: 8vw;
 }
 
 .navbar-dark .nav-item>.nav-link.active {
+    background-color: transparent !important;
     color: var(--primary-green) !important;
-    text-decoration: underline;
 }
 
 nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
     color: var(--primary-green) !important;
     transition: .5s;
 }
-
 
 .up {
     position: fixed;
