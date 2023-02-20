@@ -34,6 +34,11 @@ $(document).ready(function () {
         var icon = document.createElement("i");
         icon.className = "social-icon " + socials[i]["icon"];
 
+        var link = socials[i]["value"];
+        div.onclick = () => {
+            window.open(link, '_blank');
+        };
+
         div.appendChild(icon);
 
         var socialHandles = document.getElementById("social-handles");
@@ -47,6 +52,11 @@ $(document).ready(function () {
 
         var icon = document.createElement("i");
         icon.className = "social-icon " + socials[i]["icon"];
+
+        var link = socials[i]["value"];
+        div.onclick = () => {
+            window.open(link, '_blank');
+        };
 
         div.appendChild(icon);
 
