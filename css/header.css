@@ -64,8 +64,9 @@
 }
 
 .social-icon-wrapper:hover {
-    font-size: 24px;
-    transition: .4s;
+    transition: .5s;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px var(--primary-green);
 }
 
 .social-icon {

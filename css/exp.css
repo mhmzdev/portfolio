@@ -24,7 +24,7 @@
 }
 
 .exp-org {
-    color: white;
+    color: var(--primary-green);
 }
 
 .exp-position {

@@ -54,6 +54,12 @@
     padding-left: 15px;
     padding-right: 15px;
     background-color: var(--primary-green);
+    transition: .5s;
+}
+
+#download-btn:hover {
+    background-color: white;
+    box-shadow: 0px 0px 10px var(--primary-green);
 }
 
 .download-resume {

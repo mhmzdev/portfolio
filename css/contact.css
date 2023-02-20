@@ -29,6 +29,12 @@
     align-items: center;
     border-radius: 8px;
     background-color: var(--bg-dark);
+    transition: .5s;
+}
+
+.contact-card:hover {
+    box-shadow: 0px 5px 10px var(--primary-green);
+    cursor: pointer;
 }
 
 #mail-icon {
@@ -58,4 +64,13 @@
 .social-contact-icons {
     display: flex;
     justify-content: space-around;
+}
+
+#meet-btn {
+    transition: .5s;
+}
+
+#meet-btn:hover {
+    background-color: white;
+    box-shadow: 0px 0px 10px var(--primary-green);
 }

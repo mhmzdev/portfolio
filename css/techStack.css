@@ -14,11 +14,19 @@
     margin-right: 15px;
     border-radius: 6px;
     background-color: var(--primary-green);
+    transition: 0.5s;
 }
 
 .tech-icon {
     background-color: transparent;
 }
+
+.tech:hover {
+    cursor: default;
+    background-color: white;
+    box-shadow: 0px 0px 10px var(--primary-green);
+}
+
 
 .tech-label {
     color: black;

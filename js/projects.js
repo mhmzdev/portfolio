@@ -7,15 +7,15 @@ $(document).ready(function () {
             "labels": [
                 {
                     "title": "Play",
-                    "link": "https://link.com/"
+                    "link": "https://play.google.com/store/apps/details?id=com.hmz.al_quran"
                 },
                 {
                     "title": "Web",
-                    "link": "https://link.com/"
+                    "link": "https://mhmzdev.github.io/quran/"
                 },
                 {
                     "title": "GitHub",
-                    "link": "https://link.com/"
+                    "link": "https://github.com/mhmzdev/the-holy-quran-app"
                 }
             ]
         },
@@ -26,15 +26,15 @@ $(document).ready(function () {
             "labels": [
                 {
                     "title": "Play",
-                    "link": "https://link.com/"
+                    "link": "https://play.google.com/store/apps/details?id=com.hmz.folio"
                 },
                 {
                     "title": "Web",
-                    "link": "https://link.com/"
+                    "link": "http://mhmzdev.github.io/devfolio"
                 },
                 {
                     "title": "GitHub",
-                    "link": "https://link.com/"
+                    "link": "https://github.com/mhmzdev/devfolio"
                 }
             ]
         },
@@ -45,11 +45,11 @@ $(document).ready(function () {
             "labels": [
                 {
                     "title": "GitHub",
-                    "link": "https://link.com/"
+                    "link": "https://github.com/mhmzdev/awesome_snackbar_content"
                 },
                 {
                     "title": "Package",
-                    "link": "https://link.com/"
+                    "link": "https://pub.dev/packages/awesome_snackbar_content"
                 }
             ]
         },
@@ -60,7 +60,7 @@ $(document).ready(function () {
             "labels": [
                 {
                     "title": "GitHub",
-                    "link": "https://link.com/"
+                    "link": "https://github.com/mhmzdev/covid19-tracker-app"
                 }
             ]
         },
@@ -71,15 +71,15 @@ $(document).ready(function () {
             "labels": [
                 {
                     "title": "App",
-                    "link": "https://link.com/"
+                    "link": "https://apps.apple.com/hk/app/storius-app/id1581928786?l=en"
                 },
                 {
                     "title": "Play",
-                    "link": "https://link.com/"
+                    "link": "https://play.google.com/store/apps/details?id=com.storius.storiusapp"
                 },
                 {
                     "title": "Web",
-                    "link": "https://link.com/"
+                    "link": "https://storiusapp.com/"
                 }
             ]
         },
@@ -90,15 +90,15 @@ $(document).ready(function () {
             "labels": [
                 {
                     "title": "App",
-                    "link": "https://link.com/"
+                    "link": "https://apps.apple.com/in/app/sastaticket-flight-hotels/id1564441908"
                 },
                 {
                     "title": "Play",
-                    "link": "https://link.com/"
+                    "link": "https://play.google.com/store/apps/details?id=com.pk.sastaticket&hl=en&gl=US"
                 },
                 {
                     "title": "Web",
-                    "link": "https://link.com/"
+                    "link": "https://www.sastaticket.pk/"
                 }
             ]
         }
@@ -156,6 +156,10 @@ $(document).ready(function () {
             var labelText = document.createElement("span");
             labelText.className = "label p-label-text";
             labelText.innerHTML = title;
+
+            label.onclick = () => {
+                window.open(link, '_blank');
+            };
 
             label.appendChild(lableIcon);
             label.appendChild(labelText);

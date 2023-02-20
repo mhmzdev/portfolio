@@ -2,13 +2,13 @@ $(document).ready(function () {
     var contactInfo = [
         {
             "icon": "fa fa-phone",
-            "label": "+92 311 1559877",
-            "link": "https://somelink.com",
+            "label": "+92 346 0159889",
+            "link": "https://wa.me/923460159889",
         },
         {
             "icon": "fa fa-envelope",
             "label": "hamza.6.shakeel@gmail.com",
-            "link": "https://somelink.com",
+            "link": "mailto:hamza.6.shakeel@gmail.com",
         },
     ];
 
@@ -20,6 +20,10 @@ $(document).ready(function () {
 
         var card = document.createElement("div");
         card.className = "contact-card";
+
+        card.onclick = () => {
+            window.open(link, '_blank');
+        };
 
         var iconDiv = document.createElement("i");
         iconDiv.id = "mail-icon";
