@@ -40,15 +40,6 @@ nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
     color: white;
 }
 
-@keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 white;
-    }
-
-    100% {
-        box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
-    }
-}
 
 @keyframes pulse2 {
     0% {
@@ -72,6 +63,7 @@ nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
     transform-origin: center;
 }
 
+
 #mini-circle {
     height: 100px;
     width: 100px;
@@ -94,16 +86,17 @@ nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
     background-color: var(--primary-green);
     border-radius: 360px;
     position: absolute;
-    animation: beat 2s;
     transform-origin: center;
 }
 
 #circle-1 {
+    animation: pulse2 1.5s infinite;
     margin-top: 2%;
     right: 6%;
 }
 
 #circle-2 {
+    animation: pulse2 2.5s infinite;
     top: 60%;
     right: 30%;
 }
