@@ -22,7 +22,7 @@
     #first-name,
     #last-name {
         font-size: 102px;
-        height: 1.25em;
+        height: 1.75em;
     }
 
     .tag {
@@ -54,6 +54,11 @@
         height: 68px;
         margin-left: 1.5%;
         font-size: 28px;
+    }
+
+    .grad-circle {
+        top: 35%;
+        right: 7%;
     }
 
     .dash {
@@ -104,16 +109,7 @@
         padding-top: 5%;
     }
 
-    .profile-picture {
-        width: fit-content;
-        text-align: right;
-        right: 7%;
-        bottom: 0;
-        float: right;
-        height: 1200px;
-    }
-
     .dp {
-        height: 1200px;
+        height: 800px;
     }
 }

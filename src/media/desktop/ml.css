@@ -42,7 +42,7 @@
     }
 
     .chat {
-        padding-top: 10%;
+        padding-top: 2%;
     }
 
     #chat-btn {
@@ -61,11 +61,11 @@
     }
 
     .stats-data {
-        padding-left: 8%;
+        padding-right: 8%;
     }
 
     .stats-label-column {
-        padding-left: 4%;
+        padding-left: 10px;
     }
 
     .stats-label {
@@ -85,15 +85,13 @@
     }
 
     .profile-picture {
+        float: right;
+        position: relative;
         right: 5%;
     }
 
     .dp {
         height: 450px;
-    }
-
-    .space {
-        padding-top: 330px;
     }
 
     .about {
@@ -124,7 +122,6 @@
         height: 350px;
     }
 
-
     .projects {
         padding-left: 0%;
         padding-right: 0%;
@@ -152,5 +149,22 @@
 
     .cw-info {
         width: 43%;
+    }
+
+    .calendar {
+        width: 400px;
+        height: 350px;
+    }
+
+    .year-txt {
+        font-size: 16px;
+    }
+
+    .dates {
+        padding-top: 5px;
+    }
+
+    .contact-info-div {
+        padding-left: 5%;
     }
 }

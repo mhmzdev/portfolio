@@ -55,7 +55,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         padding-top: 5%;
-        padding-left: 4%;
+        padding-left: 2%;
     }
 
     .stats {
@@ -64,27 +64,25 @@
     }
 
     .stats-label-column {
-        padding-left: 4%;
+        padding-left: 5%;
     }
 
     .stats-label {
-        width: 130px;
+        width: 200px;
     }
 
     .stats-data {
-        padding-top: 5%;
+        padding-top: 10%;
     }
 
     .profile-picture {
-        right: 0;
+        float: right;
+        position: relative;
+        right: 0%;
     }
 
     .dp {
         height: 450px;
-    }
-
-    .space {
-        padding-top: 500px;
     }
 
     .about {
@@ -93,16 +91,25 @@
         align-items: center;
     }
 
-
     .about-text {
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     #about-me-heading,
     #about-quote,
     #about-me-text {
         text-align: center;
-        width: 500px;
+    }
+
+    #about-me-text {
+        width: 90%;
+    }
+
+    #about-img {
+        height: 450px;
     }
 
     .download-resume {
@@ -120,6 +127,10 @@
         height: 350px;
     }
 
+    .exp-card {
+        padding-left: 5%;
+    }
+
     .community-div {
         flex-direction: column-reverse;
     }
@@ -132,5 +143,22 @@
 
     .cw-stats-div {
         max-width: 100%;
+    }
+
+    .calendar {
+        width: 400px;
+        height: 350px;
+    }
+
+    .year-txt {
+        font-size: 16px;
+    }
+
+    .dates {
+        padding-top: 5px;
+    }
+
+    .contact-info-div {
+        padding-left: 5%;
     }
 }

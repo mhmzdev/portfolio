@@ -57,17 +57,16 @@
     }
 
     .stats-div {
-        position: absolute;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        padding-top: 25%;
+        padding-top: 5%;
     }
 
     .stats-data {
         display: flex;
         margin-left: 5%;
-        padding-top: 5%;
+        padding-top: 20px;
     }
 
     .stats-label-column {
@@ -76,8 +75,10 @@
     }
 
     .profile-picture {
-        right: 0;
-        bottom: 0;
+        float: right;
+        position: relative;
+        right: -30%;
+        bottom: 10%;
     }
 
     .dp {

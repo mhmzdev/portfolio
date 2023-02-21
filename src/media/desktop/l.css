@@ -98,6 +98,10 @@
         padding-top: 10%;
     }
 
+    #about-img {
+        height: 500px;
+    }
+
 
     .space {
         padding-top: 25%;
@@ -107,10 +111,11 @@
         padding-left: 8%;
         padding-right: 8%;
     }
-    
+
     .cw-stats-row {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
+
 }

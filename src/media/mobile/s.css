@@ -64,26 +64,28 @@
     }
 
     .stats-div {
-        position: absolute;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        padding-top: 5%;
+        padding-top: 3%;
     }
 
     .stats-data {
         display: flex;
         margin-left: 8%;
-        padding-top: 5%;
+        padding-top: 25px;
     }
 
     .stats-label-column {
         width: 150px;
-        padding-left: 3%;
+        padding-left: 5%;
     }
 
     .profile-picture {
-        right: -10%;
+        right: -15%;
+        float: right;
+        padding-right: 0;
+        position: relative;
     }
 
     .dp {
@@ -154,5 +156,22 @@
 
     .cw-stats-div {
         max-width: 100%;
+    }
+
+    .calendar {
+        width: 400px;
+        height: 350px;
+    }
+
+    .year-txt {
+        font-size: 16px;
+    }
+
+    .dates {
+        padding-top: 5px;
+    }
+
+    .contact-info-div {
+        padding-left: 5%;
     }
 }
