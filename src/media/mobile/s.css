@@ -46,7 +46,8 @@
 
 
     .social-icon-wrapper {
-        padding: 2%;
+        padding: 3.5%;
+        margin-right: 2%;
     }
 
     .chat {
@@ -89,7 +90,7 @@
     }
 
     .dp {
-        height: 400px;
+        height: 300px;
     }
 
     .space {
@@ -156,6 +157,14 @@
 
     .cw-stats-div {
         max-width: 100%;
+    }
+
+    .community-card {
+        width: 100%;
+    }
+
+    .c-title {
+        font-size: 14px;
     }
 
     .calendar {

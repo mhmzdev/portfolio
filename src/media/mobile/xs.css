@@ -40,7 +40,7 @@
 
 
     .social-icon-wrapper {
-        padding: 2.5%;
+        padding: 3%;
     }
 
     .chat {
@@ -152,7 +152,17 @@
     }
 
     .community-div {
+        padding-left: 1%;
+        padding-right: 1%;
         flex-direction: column-reverse;
+    }
+
+    .community-card {
+        width: 100%;
+    }
+
+    .c-title {
+        font-size: 14px;
     }
 
     .cw-info {
@@ -163,5 +173,21 @@
 
     .cw-stats-div {
         max-width: 100%;
+    }
+
+    .calendar {
+        width: 330px;
+    }
+
+    .year-txt {
+        font-size: 14px;
+    }
+
+    .year-num {
+        font-size: 18px;
+    }
+
+    .contact-card {
+        width: 330px;
     }
 }
