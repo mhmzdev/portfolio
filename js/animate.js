@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // For Scroll to Top Animation
+    // scroll to top
     $("#up").on("click", function () {
         $("html, body").animate({
             scrollTop: 0
@@ -13,6 +13,15 @@ $(document).ready(function () {
         duration: 1200,
         once: true
     });
+});
+
+$(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 800) {
+        $("#up").fadeIn();
+    } else {
+        $("#up").fadeOut();
+    }
 });
 
 $(document).ready(function () {

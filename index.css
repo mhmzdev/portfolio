@@ -17,7 +17,8 @@
     color: var(--primary-green) !important;
 }
 
-nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
+nav .navbar-nav li a:active,
+nav .navbar-nav li a:hover {
     color: var(--primary-green) !important;
     transition: .5s;
 }
@@ -25,7 +26,7 @@ nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
 .up {
     position: fixed;
     right: 0%;
-    bottom: 2%;
+    bottom: 8%;
     background-color: var(--bg-dark);
     padding: 15px;
     padding-left: 20px;
@@ -90,15 +91,27 @@ nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
 }
 
 #circle-1 {
-    animation: pulse2 1.5s infinite;
+    animation: MoveUpDown 3s linear infinite;
     margin-top: 2%;
     right: 6%;
 }
 
 #circle-2 {
-    animation: pulse2 2.5s infinite;
+    animation: MoveUpDown 3s linear infinite;
     top: 60%;
     right: 30%;
+}
+
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        top: 60%;
+    }
+
+    50% {
+        top: 58%;
+    }
 }
 
 .foot {
