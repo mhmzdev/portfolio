@@ -45,3 +45,7 @@ $(document).ready(function () {
         contactInfoDiv.insertBefore(card, contactInfoDiv.firstChild);
     }
 });
+
+function onMeetClick() {
+    window.open("https://calendly.com/mhmzdev/15min", '_blank');
+}
