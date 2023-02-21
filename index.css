@@ -36,6 +36,14 @@ nav .navbar-nav li a:hover {
     cursor: pointer;
 }
 
+.show {
+    opacity:  1;;
+}
+
+.hide {
+    opacity: 0;
+}
+
 #up-icon {
     background-color: transparent;
     color: white;
