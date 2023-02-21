@@ -25,7 +25,8 @@ $(document).ready(function () {
                 "Integration of REST APIs, Firebase and local cached concepts for better user experience",
                 "Added features in huge code base with scalability in mind, along with other concepts of OOP and design pattern.",
                 "Learned project management tools like Jira and Mural",
-                "Worked in Agile software methodology, worked in sprints and different team structures like Squads."
+                "Worked in Agile software methodology, worked in sprints and different team structures like Squads.",
+                "Helped in interviews and expanding team of developers.",
             ]
         },
         {
@@ -64,6 +65,8 @@ $(document).ready(function () {
                 "Learned and implemented MVC architecture for production level of application",
                 "Integrated Google maps, live markers and interaction of users with it",
                 "Added audio players on Google maps posted by users",
+                "Enhanced UX of beta version till 3rd revision",
+                "Helped in expanding team of developers with various resources",
             ]
         },
         {

@@ -43,10 +43,15 @@
 
 #about-me-text {
     background-color: transparent;
-    width: 500px;
+    width: 530px;
     color: white;
     padding-top: 5%;
     line-height: 30px;
+}
+
+.rich-letters {
+    background-color: transparent;
+    color: var(--primary-green);
 }
 
 #download-btn {

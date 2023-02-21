@@ -7,6 +7,13 @@ $(document).ready(function () {
         return false;
     });
 
+    $("#brand").on("click", function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 1500);
+        return false;
+    });
+
     // fade in's animation
     AOS.init({
         easing: "ease",

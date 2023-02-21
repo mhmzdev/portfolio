@@ -14,12 +14,12 @@
 
 .navbar-dark .nav-item>.nav-link.active {
     background-color: transparent !important;
-    color: var(--primary-green) !important;
+    color: white !important;
 }
 
 nav .navbar-nav li a:active,
 nav .navbar-nav li a:hover {
-    color: var(--primary-green) !important;
+    color: white !important;
     transition: .5s;
 }
 
