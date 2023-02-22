@@ -5,12 +5,16 @@ $(document).ready(function () {
         {
             "icon": "fa fa-phone",
             "label": "+92 346 0159889",
-            "link": "https://wa.me/923460159889",
+            "link": () => {
+                window.open("https://wa.me/923460159889", "_blank");
+            },
         },
         {
             "icon": "fa fa-envelope",
             "label": "hamza.6.shakeel@gmail.com",
-            "link": "mailto:hamza.6.shakeel@gmail.com",
+            "link": () => {
+                window.open("mailto:hamza.6.shakeel@gmail.com", "_blank");
+            },
         },
     ];
 
@@ -23,9 +27,7 @@ $(document).ready(function () {
         var card = document.createElement("div");
         card.className = "contact-card";
 
-        card.onclick = () => {
-            window.open(link, '_blank');
-        };
+        card.onclick = link;
 
         var iconDiv = document.createElement("i");
         iconDiv.id = "mail-icon";
@@ -57,7 +59,7 @@ function currentDate() {
     let monthName = current.toLocaleDateString('en-US', {
         month: "long",
     });
-    
+
     let date = current.getDate();
 
     let dayName = current.toLocaleDateString('en-US', {

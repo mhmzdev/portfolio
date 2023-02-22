@@ -2,27 +2,39 @@ $(document).ready(function () {
     var socials = [
         {
             "icon": "fa fa-linkedin-square",
-            "value": "https://linkedin.com/in/mhmzdev"
+            "value": () => {
+                window.open("https://linkedin.com/in/mhmzdev", "_blank");
+            }
         },
         {
             "icon": "fa fa-github",
-            "value": "https://github.com/mhmzdev"
+            "value": () => {
+                window.open("https://github.com/mhmzdev", "_blank");
+            },
         },
         {
             "icon": "fa fa-medium",
-            "value": "https://mhmzdev.medium.com"
+            "value": () => {
+                window.open("https://mhmzdev.medium.com", "_blank");
+            }
         },
         {
             "icon": "fa fa-facebook-square",
-            "value": "https://facebook.com/mhmzdev"
+            "value": () => {
+                window.open("https://facebook.com/mhmzdev", "_blank");
+            }
         },
         {
             "icon": "fa fa-instagram",
-            "value": "https://instagram.com/mhmzdev"
+            "value": () => {
+                window.open("https://instagram.com/mhmzdev", "_blank");
+            }
         },
         {
             "icon": "fa fa-twitter",
-            "value": "https://twitter.com/mhmzdev"
+            "value": () => {
+                window.open("https://twitter.com/mhmzdev", "_blank");
+            }
         }
     ];
 
@@ -35,9 +47,7 @@ $(document).ready(function () {
         icon.className = "social-icon " + socials[i]["icon"];
 
         var link = socials[i]["value"];
-        div.onclick = () => {
-            window.open(link, '_blank');
-        };
+        div.onclick = link;
 
         div.appendChild(icon);
 
@@ -54,9 +64,7 @@ $(document).ready(function () {
         icon.className = "social-icon " + socials[i]["icon"];
 
         var link = socials[i]["value"];
-        div.onclick = () => {
-            window.open(link, '_blank');
-        };
+        div.onclick = link;
 
         div.appendChild(icon);
 
