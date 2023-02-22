@@ -22,17 +22,18 @@ $(document).ready(function () {
     });
 });
 
-$(document).scroll(function () {
-    var up = document.getElementById("up");
-    var y = $(this).scrollTop();
-    if (y > 800) {
-        up.className = "up show";
-        $("#up").fadeIn();
-    } else {
-        up.className = "up hide";
-        $("#up").fadeOut();
-    }
-});
+/// Incase needed in future - problem with click
+// $(document).scroll(function () {
+//     var up = document.getElementById("up");
+//     var y = $(this).scrollTop();
+//     if (y > 800) {
+//         up.className = "up show";
+//         $("#up").fadeIn();
+//     } else {
+//         up.className = "up hide";
+//         $("#up").fadeOut();
+//     }
+// });
 
 $(document).ready(function () {
 
