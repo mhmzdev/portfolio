@@ -42,6 +42,6 @@ If you liked the repo then kindly support it by giving it a star ⭐
 
 Copyright (c) 2020 MUHAMMAD HAMZA
 
-[live]: https://mhmzdev.github.io/new
+[live]: https://mhmz.dev
 [design]: https://www.figma.com/file/DpS8wyuqikqL0e4HlSbdG4/Portfolio-for-developers?node-id=0%3A1&t=ZYIuMAgcXoqQg65d-1
 
