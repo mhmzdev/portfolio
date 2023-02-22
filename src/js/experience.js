@@ -21,7 +21,7 @@ $(document).ready(function () {
                 "Maintaining layered architecture for better encapsulation and abstraction of code from Application layer to domain layer and to data layer",
                 "Learned GitHub actions for CI/CD",
                 "Worked with various env. flavors in flutter app (dev, qa, stage, prod)",
-                "Learned concepts like ACL (Access Control List) for maintaing features in live app",
+                "Learned concepts like ACL (Access Control List) for maintaining features in live app",
                 "Integration of REST APIs, Firebase and local cached concepts for better user experience",
                 "Added features in huge code base with scalability in mind, along with other concepts of OOP and design pattern.",
                 "Learned project management tools like Jira and Mural",
@@ -85,7 +85,7 @@ $(document).ready(function () {
             "details": [
                 "Learned real-time location alerts using firebase real-time db",
                 "Integrated Google Maps",
-                "Firebase authenticaion via phone number",
+                "Firebase authentication via phone number",
                 "MVC architecture based application",
                 "Deployment on play store",
             ]
