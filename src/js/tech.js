@@ -2,97 +2,97 @@ $(document).ready(function () {
     const tech = [
         {
             "name": "Flutter",
-            "icon": "../images/tech/flutter.svg",
+            "icon": "images/tech/flutter.svg",
             "type": "mobile-tech"
         },
         {
             "name": "Dart",
-            "icon": "../images/tech/dart.svg",
+            "icon": "images/tech/dart.svg",
             "type": "mobile-tech"
         },
         {
             "name": "HTML 5",
-            "icon": "../images/tech/html.svg",
+            "icon": "images/tech/html.svg",
             "type": "web-tech"
         },
         {
             "name": "CSS 3",
-            "icon": "../images/tech/css.svg",
+            "icon": "images/tech/css.svg",
             "type": "web-tech"
         },
         {
             "name": "Bootstrap",
-            "icon": "../images/tech/bootstrap.svg",
+            "icon": "images/tech/bootstrap.svg",
             "type": "web-tech"
         },
         {
             "name": "Javascript",
-            "icon": "../images/tech/js.svg",
+            "icon": "images/tech/js.svg",
             "type": "web-tech"
         },
         {
             "name": "Flask Restful",
-            "icon": "../images/tech/flask.svg",
+            "icon": "images/tech/flask.svg",
             "type": "server-tech"
         },
         {
             "name": "Node.js",
-            "icon": "../images/tech/node.svg",
+            "icon": "images/tech/node.svg",
             "type": "server-tech"
         },
         {
             "name": "Express.js",
-            "icon": "../images/tech/express.svg",
+            "icon": "images/tech/express.svg",
             "type": "server-tech"
         },
         {
             "name": "REST Apis",
-            "icon": "../images/tech/api.svg",
+            "icon": "images/tech/api.svg",
             "type": "server-tech"
         },
         {
             "name": "Firebase",
-            "icon": "../images/tech/firebase.svg",
+            "icon": "images/tech/firebase.svg",
             "type": "database-tech"
         },
         {
             "name": "MongoDB",
-            "icon": "../images/tech/mongo.svg",
+            "icon": "images/tech/mongo.svg",
             "type": "database-tech"
         },
         {
             "name": "SQL",
-            "icon": "../images/tech/sql.svg",
+            "icon": "images/tech/sql.svg",
             "type": "database-tech"
         },
         {
             "name": "Git & GitHub",
-            "icon": "../images/tech/github.svg",
+            "icon": "images/tech/github.svg",
             "type": "vc-tech"
         },
         {
             "name": "Jira",
-            "icon": "../images/tech/jira.svg",
+            "icon": "images/tech/jira.svg",
             "type": "vc-tech"
         },
         {
             "name": "Trello",
-            "icon": "../images/tech/trello.svg",
+            "icon": "images/tech/trello.svg",
             "type": "vc-tech"
         },
         {
             "name": "Notion",
-            "icon": "../images/tech/notion.svg",
+            "icon": "images/tech/notion.svg",
             "type": "vc-tech"
         },
         {
             "name": "Figma",
-            "icon": "../images/tech/figma.svg",
+            "icon": "images/tech/figma.svg",
             "type": "design-tech"
         },
         {
             "name": "Adobe XD",
-            "icon": "../images/tech/adobexd.svg",
+            "icon": "images/tech/adobexd.svg",
             "type": "design-tech"
         }
     ];

@@ -4,7 +4,7 @@ $(document).ready(function () {
             "name": "Flutter Islamabad, Pakistan",
             "role": "Community Lead",
             "session": "April 2020 - Present",
-            "logo": "../images/community/flutter-isb.png",
+            "logo": "images/community/flutter-isb.png",
             "link": () => {
                 window.open("https://meetup.com/flutter-islamabad", "_blank");
             },
@@ -15,7 +15,7 @@ $(document).ready(function () {
             "name": "Google Developer Student Clubs",
             "role": "GDSC Lead",
             "session": "June 2020 - June 2021",
-            "logo": "../images/community/dsc.png",
+            "logo": "images/community/dsc.png",
             "link": () => {
                 window.open('https://gdsc.community.dev/comsats-university-islamabad-campus/', '_blank');
             },
@@ -25,7 +25,7 @@ $(document).ready(function () {
             "name": "Microsoft Student Ambassador",
             "role": "Student Ambassador",
             "session": "Feb 2021 - Feb 2022",
-            "logo": "../images/community/mlsa.png",
+            "logo": "images/community/mlsa.png",
             "link": () => {
                 window.open('https://mlsa.pk/', '_blank');
             },

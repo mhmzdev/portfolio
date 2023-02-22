@@ -2,7 +2,7 @@ $(document).ready(function () {
     var projects = [
         {
             "title": "The Holy Qur'an",
-            "image": "../images/projects/quran.png",
+            "image": "images/projects/quran.png",
             "type": "Open Source",
             "labels": [
                 {
@@ -27,7 +27,7 @@ $(document).ready(function () {
         },
         {
             "title": "Devfolio",
-            "image": "../images/projects/devfolio.png",
+            "image": "images/projects/devfolio.png",
             "type": "Open Source",
             "labels": [
                 {
@@ -52,7 +52,7 @@ $(document).ready(function () {
         },
         {
             "title": "Awesome Snackbar Content",
-            "image": "../images/projects/snackbar.png",
+            "image": "images/projects/snackbar.png",
             "type": "Open Source",
             "labels": [
                 {
@@ -71,7 +71,7 @@ $(document).ready(function () {
         },
         {
             "title": "COVID-19 Tracker",
-            "image": "../images/projects/covid.png",
+            "image": "images/projects/covid.png",
             "type": "Open Source",
             "labels": [
                 {
@@ -84,7 +84,7 @@ $(document).ready(function () {
         },
         {
             "title": "Storius",
-            "image": "../images/projects/storius.png",
+            "image": "images/projects/storius.png",
             "type": "Product",
             "labels": [
                 {
@@ -109,7 +109,7 @@ $(document).ready(function () {
         },
         {
             "title": "Sastaticket.pk",
-            "image": "../images/projects/sastaticket.png",
+            "image": "images/projects/sastaticket.png",
             "type": "Product",
             "labels": [
                 {
