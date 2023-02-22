@@ -127,6 +127,12 @@
 
     .tech-stack {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #tech-stack-text {
+        width: 100%;
     }
 
     #stack-illustration {
@@ -182,5 +188,9 @@
 
     .contact-info-div {
         padding-left: 5%;
+    }
+
+    #meet-btn {
+        margin-bottom: 20px;
     }
 }

@@ -48,7 +48,7 @@ $(document).ready(function () {
     for (var i = 0; i < socials.length; i++) {
         var div = document.createElement("div");
         div.className = "social-icon-wrapper";
-        div.style.padding = "2%";
+        div.style.padding = "3%";
 
         var icon = document.createElement("i");
         icon.className = "social-icon " + socials[i]["icon"];

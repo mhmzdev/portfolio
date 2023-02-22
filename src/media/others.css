@@ -12,6 +12,10 @@
 }
 
 @media only screen and (max-width: 900px) {
+    .navbar-action {
+        width: 12vw;
+    }
+
     .grad-circle {
         visibility: hidden;
     }

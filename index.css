@@ -1,5 +1,5 @@
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -52,7 +52,6 @@ nav .navbar-nav li a:hover {
 
 .show {
     opacity: 1;
-    ;
 }
 
 .hide {

@@ -162,4 +162,8 @@
     .contact-info-div {
         padding-left: 5%;
     }
+
+    #meet-btn {
+        margin-bottom: 20px;
+    }
 }
