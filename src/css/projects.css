@@ -68,6 +68,7 @@
     background-color: transparent;
     color: var(--primary-green);
     font-size: 12px;
+    transition: 0.5s;
 }
 
 .p-label {
@@ -81,16 +82,28 @@
     align-items: center;
     border-radius: 6px;
     background-color: var(--bg-dark);
+    transition: 0.5s;
 }
 
 .p-label:hover {
     cursor: pointer;
+    background-color: white;
+    box-shadow: 0px 0px 10px var(--primary-green);
+}
+
+.p-label:hover .p-label-icon {
+    color: var(--bg-dark);
 }
 
 .p-label-text {
     margin-left: 15%;
     background-color: transparent;
     color: var(--primary-green);
+    transition: .5s;
+}
+
+.p-label:hover .p-label-text {
+    color: var(--bg-dark);
 }
 
 .project-card:hover {

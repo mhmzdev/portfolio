@@ -171,16 +171,20 @@ $(document).ready(function () {
 
             var label = document.createElement('div');
             label.className = "p-label";
-            var lableIcon = document.createElement("i");
+            var labelIcon = document.createElement("i");
 
             if (title == "App") {
-                lableIcon.className = "p-label-icon fa fa-apple";
+                labelIcon.className = "p-label-icon fa fa-apple";
             } else if (title == "Play") {
-                lableIcon.className = "p-label-icon fa fa-google";
+                labelIcon.className = "p-label-icon fa fa-google";
             } else if (title == "Web") {
-                lableIcon.className = "p-label-icon fa fa-globe";
+                labelIcon.className = "p-label-icon fa fa-globe";
             } else if (title == "GitHub") {
-                lableIcon.className = "p-label-icon fa fa-github";
+                labelIcon.className = "p-label-icon fa fa-github";
+            } else if (title == "Package") {
+                labelIcon.className = "p-label-icon material-icons";
+                labelIcon.innerHTML = "widgets";
+                labelIcon.style.fontSize = "16px";
             }
 
             var labelText = document.createElement("span");
@@ -189,7 +193,7 @@ $(document).ready(function () {
 
             label.onclick = link;
 
-            label.appendChild(lableIcon);
+            label.appendChild(labelIcon);
             label.appendChild(labelText);
 
             labels.appendChild(label);
