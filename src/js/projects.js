@@ -7,21 +7,15 @@ $(document).ready(function () {
             "labels": [
                 {
                     "title": "Play",
-                    "link": () => {
-                        window.open("https://play.google.com/store/apps/details?id=com.hmz.al_quran", "_blank");
-                    },
+                    "link": "https://play.google.com/store/apps/details?id=com.hmz.al_quran"
                 },
                 {
                     "title": "Web",
-                    "link": () => {
-                        window.open("https://mhmzdev.github.io/quran/", "_blank");
-                    },
+                    "link": "https://mhmzdev.github.io/quran/"
                 },
                 {
                     "title": "GitHub",
-                    "link": () => {
-                        window.open("https://github.com/mhmzdev/the-holy-quran-app", "_blank");
-                    },
+                    "link": "https://github.com/mhmzdev/the-holy-quran-app"
                 }
             ]
         },
@@ -32,21 +26,15 @@ $(document).ready(function () {
             "labels": [
                 {
                     "title": "Play",
-                    "link": () => {
-                        window.open("https://play.google.com/store/apps/details?id=com.hmz.folio", "_blank");
-                    }
+                    "link": "https://play.google.com/store/apps/details?id=com.hmz.folio"
                 },
                 {
                     "title": "Web",
-                    "link": () => {
-                        window.open("http://mhmzdev.github.io/devfolio", "_blank");
-                    }
+                    "link": "http://mhmzdev.github.io/devfolio"
                 },
                 {
                     "title": "GitHub",
-                    "link": () => {
-                        window.open("https://github.com/mhmzdev/devfolio", "_blank");
-                    }
+                    "link": "https://github.com/mhmzdev/devfolio"
                 }
             ]
         },
@@ -57,15 +45,11 @@ $(document).ready(function () {
             "labels": [
                 {
                     "title": "GitHub",
-                    "link": () => {
-                        window.open("https://github.com/mhmzdev/awesome_snackbar_content", "_blank");
-                    }
+                    "link": "https://github.com/mhmzdev/awesome_snackbar_content"
                 },
                 {
                     "title": "Package",
-                    "link": () => {
-                        window.open("https://pub.dev/packages/awesome_snackbar_content", "_blank");
-                    }
+                    "link": "https://pub.dev/packages/awesome_snackbar_content"
                 }
             ]
         },
@@ -76,9 +60,7 @@ $(document).ready(function () {
             "labels": [
                 {
                     "title": "GitHub",
-                    "link": () => {
-                        window.open("https://github.com/mhmzdev/covid19-tracker-app", "_blank");
-                    }
+                    "link": "https://github.com/mhmzdev/covid19-tracker-app"
                 }
             ]
         },
@@ -89,21 +71,15 @@ $(document).ready(function () {
             "labels": [
                 {
                     "title": "App",
-                    "link": () => {
-                        window.open("https://apps.apple.com/hk/app/storius-app/id1581928786?l=en", "_blank");
-                    }
+                    "link": "https://apps.apple.com/hk/app/storius-app/id1581928786?l=en"
                 },
                 {
                     "title": "Play",
-                    "link": () => {
-                        window.open("https://play.google.com/store/apps/details?id=com.storius.storiusapp", "_blank");
-                    }
+                    "link": "https://play.google.com/store/apps/details?id=com.storius.storiusapp"
                 },
                 {
                     "title": "Web",
-                    "link": () => {
-                        window.open("https://storiusapp.com/", "_blank");
-                    }
+                    "link": "https://storiusapp.com/"
                 }
             ]
         },
@@ -114,21 +90,15 @@ $(document).ready(function () {
             "labels": [
                 {
                     "title": "App",
-                    "link": () => {
-                        window.open("https://apps.apple.com/in/app/sastaticket-flight-hotels/id1564441908", "_blank");
-                    }
+                    "link": "https://apps.apple.com/in/app/sastaticket-flight-hotels/id1564441908"
                 },
                 {
                     "title": "Play",
-                    "link": () => {
-                        window.open("https://play.google.com/store/apps/details?id=com.pk.sastaticket&hl=en&gl=US", "_blank");
-                    }
+                    "link": "https://play.google.com/store/apps/details?id=com.pk.sastaticket&hl=en&gl=US"
                 },
                 {
                     "title": "Web",
-                    "link": () => {
-                        window.open("https://www.sastaticket.pk/", "_blank")
-                    }
+                    "link": "https://www.sastaticket.pk/"
                 }
             ]
         }
@@ -169,7 +139,7 @@ $(document).ready(function () {
             var title = project.labels[j]["title"];
             var link = project.labels[j]["link"];
 
-            var label = document.createElement('div');
+            var label = document.createElement('a');
             label.className = "p-label";
             var labelIcon = document.createElement("i");
 
@@ -191,7 +161,8 @@ $(document).ready(function () {
             labelText.className = "label p-label-text";
             labelText.innerHTML = title;
 
-            label.onclick = link;
+            label.href = link;
+            label.target = "_blank";
 
             label.appendChild(labelIcon);
             label.appendChild(labelText);
