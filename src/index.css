@@ -88,9 +88,23 @@ nav .navbar-nav li a:hover {
 
 
 #mini-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     width: 100px;
     top: 8%;
+}
+
+#repo-link {
+    background-color: transparent;
+    color: white;
+    font-size: 38px;
+    transition: .5s;
+}
+
+#repo-link:hover {
+    color: var(--primary-green);
 }
 
 @keyframes beat {
