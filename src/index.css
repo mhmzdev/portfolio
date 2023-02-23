@@ -23,7 +23,7 @@
 }
 
 .navbar-action {
-    width: 10vw;
+    padding-left: 5vw;
 }
 
 .navbar-dark .nav-item>.nav-link.active {
@@ -93,7 +93,7 @@ nav .navbar-nav li a:hover {
     align-items: center;
     height: 100px;
     width: 100px;
-    top: 8%;
+    top: 10%;
 }
 
 #repo-link {

@@ -13,7 +13,7 @@
 
 @media only screen and (max-width: 900px) {
     .navbar-action {
-        width: 12vw;
+        padding-left: 3vw;
     }
 
     .grad-circle {
