@@ -2,77 +2,67 @@ $(document).ready(function () {
     var socials = [
         {
             "icon": "fa fa-linkedin-square",
-            "value": () => {
-                window.open("https://linkedin.com/in/mhmzdev", "_blank");
-            }
+            "value": "https://linkedin.com/in/mhmzdev"
         },
         {
             "icon": "fa fa-github",
-            "value": () => {
-                window.open("https://github.com/mhmzdev", "_blank");
-            },
+            "value": "https://github.com/mhmzdev"
         },
         {
             "icon": "fa fa-medium",
-            "value": () => {
-                window.open("https://mhmzdev.medium.com", "_blank");
-            }
+            "value": "https://mhmzdev.medium.com"
         },
         {
             "icon": "fa fa-facebook-square",
-            "value": () => {
-                window.open("https://facebook.com/mhmzdev", "_blank");
-            }
+            "value": "https://facebook.com/mhmzdev"
         },
         {
             "icon": "fa fa-instagram",
-            "value": () => {
-                window.open("https://instagram.com/mhmzdev", "_blank");
-            }
+            "value": "https://instagram.com/mhmzdev"
         },
         {
             "icon": "fa fa-twitter",
-            "value": () => {
-                window.open("https://twitter.com/mhmzdev", "_blank");
-            }
+            "value": "https://twitter.com/mhmzdev"
         }
     ];
 
 
     for (var i = 0; i < socials.length; i++) {
-        var div = document.createElement("div");
-        div.className = "social-icon-wrapper";
+        var anchor = document.createElement("a");
+        anchor.className = "social-icon-wrapper";
 
         var icon = document.createElement("i");
         icon.className = "social-icon " + socials[i]["icon"];
 
         var link = socials[i]["value"];
-        div.onclick = link;
+        anchor.href = link;
+        anchor.target = "_blank";
 
-        div.appendChild(icon);
+        anchor.appendChild(icon);
 
         var socialHandles = document.getElementById("social-handles");
-        socialHandles.appendChild(div);
+        socialHandles.appendChild(anchor);
     }
 
     for (var i = 0; i < socials.length; i++) {
-        var div = document.createElement("div");
-        div.className = "social-icon-wrapper";
-        div.style.padding = "3%";
+        var anchor = document.createElement("a");
+        anchor.className = "social-icon-wrapper";
+        anchor.style.padding = "3%";
 
         var icon = document.createElement("i");
         icon.className = "social-icon " + socials[i]["icon"];
 
         var link = socials[i]["value"];
-        div.onclick = link;
+        anchor.href = link;
+        anchor.target = "_blank";
 
-        div.appendChild(icon);
+        anchor.appendChild(icon);
 
         var socialHandlsContact = document.getElementById("social-contact-icons");
         var extraDiv = document.createElement("div");
 
         socialHandlsContact.appendChild(extraDiv);
-        socialHandlsContact.appendChild(div);
+        socialHandlsContact.appendChild(anchor);
         socialHandlsContact.appendChild(extraDiv);
     }
 });
