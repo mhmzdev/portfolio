@@ -5,9 +5,7 @@ $(document).ready(function () {
             "role": "Community Lead",
             "session": "April 2020 - Present",
             "logo": "images/community/flutter-isb.png",
-            "link": () => {
-                window.open("https://meetup.com/flutter-islamabad", "_blank");
-            },
+            "link": "https://meetup.com/flutter-islamabad",
             "details":
                 "Flutter Islamabad, Pakistan - First ever flutter community to be officially registered at Flutter Network (Google). Hosted events, sessions, hands- on and workshops and trained hundred and thousands of developers.",
         },
@@ -16,9 +14,7 @@ $(document).ready(function () {
             "role": "GDSC Lead",
             "session": "June 2020 - June 2021",
             "logo": "images/community/dsc.png",
-            "link": () => {
-                window.open('https://gdsc.community.dev/comsats-university-islamabad-campus/', '_blank');
-            },
+            "link": 'https://gdsc.community.dev/comsats-university-islamabad-campus/',
             "details": "Google Developer Student Clubs - Trained hundreds of students about various technologies like flutter, tensorflow, Git and GitHub etc.",
         },
         {
@@ -26,9 +22,7 @@ $(document).ready(function () {
             "role": "Student Ambassador",
             "session": "Feb 2021 - Feb 2022",
             "logo": "images/community/mlsa.png",
-            "link": () => {
-                window.open('https://mlsa.pk/', '_blank');
-            },
+            "link": 'https://mlsa.pk/',
             "details": "Microsoft Student Ambassador - Helped students in learning technologies like Python, Azure and GitHub for their projects in college and real-life. Learned team management, event management and helped other students to grow their career as student ambassador.",
         },
     ];
@@ -42,7 +36,7 @@ $(document).ready(function () {
         var link = com.link;
         var details = com.details;
 
-        var card = document.createElement("div");
+        var card = document.createElement("a");
         card.className = "community-card";
 
         var image = document.createElement('img');
@@ -72,7 +66,8 @@ $(document).ready(function () {
         card.appendChild(image);
         card.appendChild(info);
 
-        card.onclick = link;
+        card.href = link;
+        card.target = "_blank";
 
         var communitiesDiv = document.getElementById("communities");
         communitiesDiv.append(card);

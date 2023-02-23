@@ -28,6 +28,7 @@
 }
 
 .community-card:hover {
+    text-decoration: none;
     box-shadow: 0px 0px 10px var(--primary-green);
     cursor: pointer;
 }
