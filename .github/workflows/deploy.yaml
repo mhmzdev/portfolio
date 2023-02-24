@@ -15,8 +15,8 @@ jobs:
         - name: Setup git configs
           run: |
             git checkout master
-            git config --global user.name "hackerhgl"
-            git config --global user.email "hackerhgl@gmail.com"
+            git config --global user.name "mhmzdev"
+            git config --global user.email "hamza.6.shakeel@gmail.com"
 
         - name: Build and Deploy
           uses: JamesIves/github-pages-deploy-action@releases/v3
