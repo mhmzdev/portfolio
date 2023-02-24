@@ -1,37 +1,18 @@
-document.addEventListener("DOMContentLoaded", function () {
-    mapStatsData();
-    mapSocialLinksData();
+document.addEventListener("DOMContentLoaded", async function () {
+
+    let data = await fetch("../src/data/header.json")
+        .then((response) => response.json())
+        .then((json) => json);
+
+    let socials = data["socialLinks"];
+    let stats = data["stats"];
+
+    mapSocialLinksData(socials);
+    mapStatsData(stats);
+
 });
 
-function mapSocialLinksData() {
-    var socials = [
-        {
-            "icon": "fa fa-linkedin-square",
-            "value": "https://linkedin.com/in/mhmzdev"
-        },
-        {
-            "icon": "fa fa-github",
-            "value": "https://github.com/mhmzdev"
-        },
-        {
-            "icon": "fa fa-medium",
-            "value": "https://mhmzdev.medium.com"
-        },
-        {
-            "icon": "fa fa-facebook-square",
-            "value": "https://facebook.com/mhmzdev"
-        },
-        {
-            "icon": "fa fa-instagram",
-            "value": "https://instagram.com/mhmzdev"
-        },
-        {
-            "icon": "fa fa-twitter",
-            "value": "https://twitter.com/mhmzdev"
-        }
-    ];
-
-
+function mapSocialLinksData(socials) {
     // icons in top section
     for (var i = 0; i < socials.length; i++) {
         var anchor = document.createElement("a");
@@ -74,27 +55,9 @@ function mapSocialLinksData() {
     }
 }
 
-function mapStatsData() {
-    var overAllStats = [
-        {
-            "value": "3",
-            "text-1": "Years",
-            "text-2": "Experience",
-        },
-        {
-            "value": "35+",
-            "text-1": "Projects Completed",
-            "text-2": "in 10+ Countries",
-        },
-        {
-            "value": "109k+",
-            "text-1": "Content",
-            "text-2": "Reach & Views",
-        },
-    ];
-
-    for (var i = 0; i < overAllStats.length; i++) {
-        var stat = overAllStats[i];
+function mapStatsData(stats) {
+    for (var i = 0; i < stats.length; i++) {
+        var stat = stats[i];
         var value = stat["value"];
         var txt1 = stat["text-1"];
         var txt2 = stat["text-2"];

@@ -1,22 +1,15 @@
-document.addEventListener("DOMContentLoaded", function () {
-    mapContactDetails();
+document.addEventListener("DOMContentLoaded", async function () {
+
+    let data = await fetch("../src/data/contact.json")
+        .then((response) => response.json())
+        .then((json) => json);
+
+    mapContactDetails(data);
     currentDate();
+
 });
 
-function mapContactDetails() {
-    var contactInfo = [
-        {
-            "icon": "fa fa-phone",
-            "label": "+92 346 0159889",
-            "link": "https://wa.me/923460159889",
-        },
-        {
-            "icon": "fa fa-envelope",
-            "label": "hamza.6.shakeel@gmail.com",
-            "link": "mailto:hamza.6.shakeel@gmail.com",
-        },
-    ];
-
+function mapContactDetails(contactInfo) {
     for (var i = 0; i < contactInfo.length; i++) {
         var c = contactInfo[i];
         var icon = c.icon;
