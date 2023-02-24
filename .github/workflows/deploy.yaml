@@ -19,12 +19,12 @@ jobs:
             git config --global user.name "mhmzdev"
             git config --global user.email "hamza.6.shakeel@gmail.com"
 
-        - name: Build and Deploy
-          uses: JamesIves/github-pages-deploy-action@releases/v3
-          with:
-            ACCESS_TOKEN: ${{ secrets.GP_TOKEN }}
-            BRANCH: gh-pages # The branch the action should deploy to.
-            FOLDER: src # The folder the action should deploy.
+        # - name: Build and Deploy
+        #   uses: JamesIves/github-pages-deploy-action@releases/v3
+        #   with:
+        #     ACCESS_TOKEN: ${{ secrets.GP_TOKEN }}
+        #     BRANCH: gh-pages # The branch the action should deploy to.
+        #     FOLDER: src # The folder the action should deploy.
 
         # Deploy Firebase Hosting
         - name: Deploy Firebase Hosting
