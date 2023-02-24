@@ -1,6 +1,6 @@
-## Portfolio - HTML CSS BOOTSTRAP JS
+## Web Portfolio - Vanilla JS
 
-<img src="https://user-images.githubusercontent.com/43790152/220690586-63eaae7b-e684-4f12-8294-7e85534a5907.gif">
+<img src="https://user-images.githubusercontent.com/43790152/220690586-63eaae7b-e684-4f12-8294-7e85534a5907.gif" height="500px">
 
 ### 💻 Live
 Check the deployed version [here][live]
@@ -14,6 +14,10 @@ Following is the tech stack for this:
 - CSS
 - Bootstrap
 - JavaScript
+
+### 🙌🏻 Development environment
+- You will be needing [Go live][go-live-link] extension in case you want to run this locally on VS Code.
+- Otherwise, you can simply open `index.html` file, make changes and refresh the page to see effect
 
 
 ### 👀 Look'n Feel
@@ -44,4 +48,4 @@ Copyright (c) 2020 MUHAMMAD HAMZA
 
 [live]: https://mhmz.dev
 [design]: https://www.figma.com/file/DpS8wyuqikqL0e4HlSbdG4/Portfolio-for-developers?node-id=0%3A1&t=ZYIuMAgcXoqQg65d-1
-
+[go-live-link]: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
