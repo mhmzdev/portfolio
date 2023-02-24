@@ -14,7 +14,7 @@ jobs:
         # Git configure
         - name: Setup git configs
           run: |
-            git checkout master
+            git checkout main
             git config --global user.name "mhmzdev"
             git config --global user.email "hamza.6.shakeel@gmail.com"
 
