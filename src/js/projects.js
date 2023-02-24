@@ -1,14 +1,113 @@
-document.addEventListener("DOMContentLoaded", async function () {
-
-    let data = await fetch("../src/data/projects.json")
-        .then((response) => response.json())
-        .then((json) => json);
-
-    mapProjectsData(data);
-
+document.addEventListener("DOMContentLoaded", function () {
+    mapProjectsData();
 });
 
-function mapProjectsData(projects) {
+function mapProjectsData() {
+    let projects = [
+        {
+            "title": "The Holy Qur'an",
+            "image": "images/projects/quran.png",
+            "type": "Open Source",
+            "labels": [
+                {
+                    "title": "Play",
+                    "link": "https://play.google.com/store/apps/details?id=com.hmz.al_quran"
+                },
+                {
+                    "title": "Web",
+                    "link": "https://mhmzdev.github.io/quran/"
+                },
+                {
+                    "title": "GitHub",
+                    "link": "https://github.com/mhmzdev/the-holy-quran-app"
+                }
+            ]
+        },
+        {
+            "title": "Devfolio",
+            "image": "images/projects/devfolio.png",
+            "type": "Open Source",
+            "labels": [
+                {
+                    "title": "Play",
+                    "link": "https://play.google.com/store/apps/details?id=com.hmz.folio"
+                },
+                {
+                    "title": "Web",
+                    "link": "http://mhmzdev.github.io/devfolio"
+                },
+                {
+                    "title": "GitHub",
+                    "link": "https://github.com/mhmzdev/devfolio"
+                }
+            ]
+        },
+        {
+            "title": "Awesome Snackbar Content",
+            "image": "images/projects/snackbar.png",
+            "type": "Open Source",
+            "labels": [
+                {
+                    "title": "GitHub",
+                    "link": "https://github.com/mhmzdev/awesome_snackbar_content"
+                },
+                {
+                    "title": "Package",
+                    "link": "https://pub.dev/packages/awesome_snackbar_content"
+                }
+            ]
+        },
+        {
+            "title": "COVID-19 Tracker",
+            "image": "images/projects/covid.png",
+            "type": "Open Source",
+            "labels": [
+                {
+                    "title": "GitHub",
+                    "link": "https://github.com/mhmzdev/covid19-tracker-app"
+                }
+            ]
+        },
+        {
+            "title": "Storius",
+            "image": "images/projects/storius.png",
+            "type": "Product",
+            "labels": [
+                {
+                    "title": "App",
+                    "link": "https://apps.apple.com/hk/app/storius-app/id1581928786?l=en"
+                },
+                {
+                    "title": "Play",
+                    "link": "https://play.google.com/store/apps/details?id=com.storius.storiusapp"
+                },
+                {
+                    "title": "Web",
+                    "link": "https://storiusapp.com/"
+                }
+            ]
+        },
+        {
+            "title": "Sastaticket.pk",
+            "image": "images/projects/sastaticket.png",
+            "type": "Product",
+            "labels": [
+                {
+                    "title": "App",
+                    "link": "https://apps.apple.com/in/app/sastaticket-flight-hotels/id1564441908"
+                },
+                {
+                    "title": "Play",
+                    "link": "https://play.google.com/store/apps/details?id=com.pk.sastaticket&hl=en&gl=US"
+                },
+                {
+                    "title": "Web",
+                    "link": "https://www.sastaticket.pk/"
+                }
+            ]
+        }
+    ];
+
     for (var i = 0; i < projects.length; i++) {
         var project = projects[i];
         var title = project.title;
