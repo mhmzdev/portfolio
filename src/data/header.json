@@ -1,0 +1,58 @@
+{
+    "tag": "Full Stack Flutter Expert",
+    "name": [
+        "Muhammad",
+        "Hamza"
+    ],
+    "typeWriterLabels": [
+        "Flutter Developer",
+        "UI/UX Enthusiast",
+        "A Friend!",
+        "Student forever",
+        "Mentor"
+    ],
+    "socialLinks": [
+        {
+            "icon": "fa fa-linkedin-square",
+            "value": "https://linkedin.com/in/mhmzdev"
+        },
+        {
+            "icon": "fa fa-github",
+            "value": "https://github.com/mhmzdev"
+        },
+        {
+            "icon": "fa fa-medium",
+            "value": "https://mhmzdev.medium.com"
+        },
+        {
+            "icon": "fa fa-facebook-square",
+            "value": "https://facebook.com/mhmzdev"
+        },
+        {
+            "icon": "fa fa-instagram",
+            "value": "https://instagram.com/mhmzdev"
+        },
+        {
+            "icon": "fa fa-twitter",
+            "value": "https://twitter.com/mhmzdev"
+        }
+    ],
+    "stats": [
+        {
+            "value": "3",
+            "text-1": "Years",
+            "text-2": "Experience"
+        },
+        {
+            "value": "35+",
+            "text-1": "Projects Completed",
+            "text-2": "in 10+ Countries"
+        },
+        {
+            "value": "109k+",
+            "text-1": "Content",
+            "text-2": "Reach & Views"
+        }
+    ],
+    "resumeURL": "https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view"
+}

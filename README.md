@@ -1,6 +1,6 @@
 ## Web Portfolio - Vanilla JS
 
-<img src="https://user-images.githubusercontent.com/43790152/220690586-63eaae7b-e684-4f12-8294-7e85534a5907.gif" height="500px">
+<img src="https://user-images.githubusercontent.com/43790152/220690586-63eaae7b-e684-4f12-8294-7e85534a5907.gif">
 
 ### 💻 Live
 Check the deployed version [here][live]
