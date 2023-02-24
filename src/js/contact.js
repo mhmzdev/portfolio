@@ -1,6 +1,9 @@
-$(document).ready(function () {
+document.addEventListener("DOMContentLoaded", function () {
+    mapContactDetails();
     currentDate();
+});
 
+function mapContactDetails() {
     var contactInfo = [
         {
             "icon": "fa fa-phone",
@@ -45,7 +48,7 @@ $(document).ready(function () {
         var contactInfoDiv = document.getElementById("contact-info-div");
         contactInfoDiv.insertBefore(card, contactInfoDiv.firstChild);
     }
-});
+}
 
 function onMeetClick() {
     window.open("https://calendly.com/mhmzdev/15min", '_blank');

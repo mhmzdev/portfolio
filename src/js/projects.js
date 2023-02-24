@@ -1,4 +1,8 @@
-$(document).ready(function () {
+document.addEventListener("DOMContentLoaded", function () {
+    mapProjectsData();
+});
+
+function mapProjectsData() {
     var projects = [
         {
             "title": "The Holy Qur'an",
@@ -179,5 +183,4 @@ $(document).ready(function () {
         var projectsDiv = document.getElementById("projects");
         projectsDiv.appendChild(card);
     }
-
-});
+}

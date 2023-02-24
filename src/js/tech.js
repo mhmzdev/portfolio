@@ -1,4 +1,8 @@
-$(document).ready(function () {
+document.addEventListener("DOMContentLoaded", function () {
+    mapTechData();
+});
+
+function mapTechData() {
     const tech = [
         {
             "name": "Flutter",
@@ -124,4 +128,4 @@ $(document).ready(function () {
         techDiv.appendChild(techName);
         relatedDiv.appendChild(techDiv);
     }
-});
+}

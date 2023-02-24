@@ -1,4 +1,9 @@
-$(document).ready(function () {
+document.addEventListener("DOMContentLoaded", function () {
+    mapExperienceData();
+});
+
+
+function mapExperienceData() {
     var exp = [
         {
             "org": "Sastaticket.pk",
@@ -146,4 +151,4 @@ $(document).ready(function () {
         var experiences = document.getElementById("exp");
         experiences.appendChild(expCard);
     }
-});
+}

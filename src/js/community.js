@@ -1,4 +1,8 @@
-$(document).ready(function () {
+document.addEventListener("DOMContentLoaded", function () {
+    mapCommunityData();
+});
+
+function mapCommunityData() {
     var communities = [
         {
             "name": "Flutter Islamabad, Pakistan",
@@ -79,4 +83,4 @@ $(document).ready(function () {
         var points = document.getElementById("cw-points");
         points.appendChild(point);
     }
-});
+}

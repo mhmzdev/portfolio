@@ -1,27 +1,3 @@
-$(document).ready(function () {
-    // scroll to top
-    $("#up").on("click", function () {
-        $("html, body").animate({
-            scrollTop: 0
-        }, 1500);
-        return false;
-    });
-
-    $("#brand").on("click", function () {
-        $("html, body").animate({
-            scrollTop: 0
-        }, 1500);
-        return false;
-    });
-
-    // fade in's animation
-    AOS.init({
-        easing: "ease",
-        duration: 1200,
-        once: true
-    });
-});
-
 /// Incase needed in future - problem with click
 // $(document).scroll(function () {
 //     var up = document.getElementById("up");
@@ -35,7 +11,11 @@ $(document).ready(function () {
 //     }
 // });
 
-$(document).ready(function () {
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    scrollToTop();
+    aosInit();
 
     window.onscroll = function () {
         $(document).on("scroll", onScroll);
@@ -61,7 +41,34 @@ $(document).ready(function () {
             });
         });
     }
-});
+})
+
+function scrollToTop() {
+    // scroll to top
+    $("#up").on("click", function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 1500);
+        return false;
+    });
+
+    $("#brand").on("click", function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 1500);
+        return false;
+    });
+
+}
+
+function aosInit() {
+    // fade in's animation
+    AOS.init({
+        easing: "ease",
+        duration: 1200,
+        once: true
+    });
+}
 
 function onScroll(event) {
     var scrollPos = $(document).scrollTop();
