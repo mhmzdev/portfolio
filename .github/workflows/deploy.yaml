@@ -7,6 +7,23 @@ jobs:
       steps:
         # Checkout Repository
         - uses: actions/checkout@v1
+          with:
+            fetch-depth: 0
+            token: ${{ secrets.GP_TOKEN }}
+
+        # Git configure
+        - name: Setup git configs
+          run: |
+            git checkout master
+            git config --global user.name "hackerhgl"
+            git config --global user.email "hackerhgl@gmail.com"
+
+        - name: Build and Deploy
+          uses: JamesIves/github-pages-deploy-action@releases/v3
+          with:
+            ACCESS_TOKEN: ${{ secrets.GP_TOKEN }}
+            BRANCH: gh-pages # The branch the action should deploy to.
+            FOLDER: src # The folder the action should deploy.
 
         # Deploy Firebase Hosting
         - name: Deploy Firebase Hosting
