@@ -5,16 +5,12 @@ $(document).ready(function () {
         {
             "icon": "fa fa-phone",
             "label": "+92 346 0159889",
-            "link": () => {
-                window.open("https://wa.me/923460159889", "_blank");
-            },
+            "link": "https://wa.me/923460159889",
         },
         {
             "icon": "fa fa-envelope",
             "label": "hamza.6.shakeel@gmail.com",
-            "link": () => {
-                window.open("mailto:hamza.6.shakeel@gmail.com", "_blank");
-            },
+            "link": "mailto:hamza.6.shakeel@gmail.com",
         },
     ];
 
@@ -24,10 +20,11 @@ $(document).ready(function () {
         var label = c.label;
         var link = c.link;
 
-        var card = document.createElement("div");
+        var card = document.createElement("a");
         card.className = "contact-card";
 
-        card.onclick = link;
+        card.href = link;
+        card.target = "_blank";
 
         var iconDiv = document.createElement("i");
         iconDiv.id = "mail-icon";
