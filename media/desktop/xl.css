@@ -1,0 +1,105 @@
+@media only screen and (min-width:1201px) {
+
+    .tag-wrapper {
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+
+    #chip {
+        width: 12em;
+    }
+
+    .tag-title {
+        font-size: 12px;
+    }
+
+    .name {
+        padding-top: 1%;
+        padding-left: 10%;
+    }
+
+    #first-name,
+    #last-name {
+        font-size: 52px;
+    }
+
+    .tag {
+        padding-top: 2%;
+        padding-left: 10%;
+        display: flex;
+    }
+
+    #tag {
+        color: white;
+        padding-left: 0.5%;
+    }
+
+    .trianlge-right {
+        margin-top: 3px;
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-left: 15px solid var(--primary-green);
+        border-bottom: 8px solid transparent;
+    }
+
+    .dash {
+        margin-left: 10%;
+        background-color: rgb(148, 148, 148);
+        height: 1px;
+        width: 100px;
+    }
+
+    .chat {
+        padding-top: 5%;
+    }
+
+    #chat-btn {
+        padding-left: 10%;
+    }
+
+    .stats-div {
+        position: absolute;
+        padding-left: 7%;
+        bottom: 3%;
+    }
+
+    .stats {
+        display: flex;
+        background-color: transparent;
+    }
+
+    .stats-data {
+        padding-left: 10%;
+    }
+
+    .stats-label-column {
+        padding-left: 6%;
+    }
+
+    .value {
+        font-size: 28px;
+    }
+
+    .stats-label {
+        width: max-content;
+        font-size: 10px;
+    }
+
+    .stats-data {
+        padding-top: 5%;
+    }
+
+    .dp {
+        height: 550px;
+    }
+
+    .space {
+        padding-top: 18%;
+    }
+
+    .projects {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}

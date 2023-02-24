@@ -1,0 +1,122 @@
+@media only screen and (min-width:1025px) and (max-width:1200px) {
+
+    .tag-wrapper {
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+
+    .name {
+        padding-top: 1%;
+        padding-left: 10%;
+        font-size: 100px;
+
+    }
+
+    #first-name,
+    #last-name {
+        font-size: 42px;
+    }
+
+    .tag {
+        padding-top: 2%;
+        padding-left: 10%;
+        display: flex;
+    }
+
+    #tag {
+        color: white;
+        padding-left: 1%;
+    }
+
+    .trianlge-right {
+        margin-top: 3px;
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-left: 15px solid var(--primary-green);
+        border-bottom: 8px solid transparent;
+    }
+
+    .dash {
+        margin-left: 10%;
+        background-color: rgb(148, 148, 148);
+        height: 1px;
+        width: 100px;
+    }
+
+    .chat {
+        padding-top: 10%;
+    }
+
+    #chat-btn {
+        padding-left: 10%;
+    }
+
+    .stats-div {
+        position: absolute;
+        padding-left: 5%;
+        bottom: 10%;
+    }
+
+    .stats {
+        display: flex;
+        background-color: transparent;
+    }
+
+    .stats-data {
+        padding-left: 10%;
+    }
+
+    .stats-label-column {
+        padding-left: 4%;
+    }
+
+    .stats-label {
+        width: max-content;
+    }
+
+    .stats-data {
+        padding-top: 5%;
+    }
+
+    .grad-circle {
+        top: 25%;
+        height: 500px;
+        width: 500px;
+        right: 0;
+    }
+
+    .profile-picture {
+        right: 5.5%;
+        bottom: 3.5%;
+    }
+
+    .dp {
+        height: 450px;
+    }
+
+    .about {
+        padding-top: 10%;
+    }
+
+    #about-img {
+        height: 500px;
+    }
+
+
+    .space {
+        padding-top: 25%;
+    }
+
+    .projects {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .cw-stats-row {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

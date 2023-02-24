@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- mobile responsiveness -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- meta tags for link preview -->
+    <meta property="og:title" content="Hamza - Random Dude!" />
+    <meta property="og:url" content="https://www.mhmz.dev/" />
+    <meta property="og:image"
+        content="https://user-images.githubusercontent.com/43790152/211495481-57117f01-e4ad-4810-b00e-c71a66474c22.png" />
+
+
+    <title>Hamza</title>
+    <link rel="icon" href="images//title/favicon.png" type="image/icon type">
+
+    <!-- css -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="theme/core.css">
+    <link rel="stylesheet" href="theme/text_styles.css">
+
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/techStack.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/exp.css">
+    <link rel="stylesheet" href="css/community.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <link rel="stylesheet" href="components/currentDate.css">
+
+    <!-- Required for AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- media queries -->
+    <!-- mobile -->
+    <link rel="stylesheet" href="media/mobile/s.css">
+    <link rel="stylesheet" href="media/mobile/xs.css">
+
+    <!-- tablet -->
+    <link rel="stylesheet" href="media/tablet/m.css">
+
+    <!-- desktop -->
+    <link rel="stylesheet" href="media/desktop/ml.css">
+    <link rel="stylesheet" href="media/desktop/l.css">
+    <link rel="stylesheet" href="media/desktop/xl.css">
+    <link rel="stylesheet" href="media/desktop/xl_4k.css">
+
+    <!-- others -->
+    <link rel="stylesheet" href="media/others.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- icons -->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+        rel="stylesheet">
+
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar">
+        <button id="navbar-icon" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu">
+            <img src="images//svgs/menu.svg" alt="">
+        </button>
+
+        <a href="#" data-aos="fade-down" data-aos-delay="200" class="navbar-brand">
+            < <span id="brand">Hamza </span>/>
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item navbar-action">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item navbar-action">
+                    <a href="#tech" class="nav-link">Tech</a>
+                </li>
+                <li class="nav-item navbar-action">
+                    <a href="#projects-div" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item navbar-action">
+                    <a href="#exp" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item navbar-action">
+                    <a href="#community" class="nav-link">Community</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="up" class="up">
+        <i id="up-icon" class="fa fa-chevron-up"></i>
+    </div>
+
+    <div id="header-div" class="container-fluid">
+        <div class="grad-circle" id="mini-circle">
+            <a href="https://github.com/mhmzdev/live-web-portfolio" target="_blank">
+                <i id="repo-link" class="fa fa-github"></i>
+            </a>
+        </div>
+        <div class="grad-circle"></div>
+
+        <div class="tag-wrapper">
+            <div id="chip">
+                <span id="tag-label" class="label tag-title"></span>
+            </div>
+        </div>
+
+        <div class="name">
+            <div class="heading1" id="first-name"></div>
+            <div class="heading1" id="last-name"></div>
+        </div>
+
+        <div class="tag">
+            <div class="trianlge-right"></div>
+            <span id="tag" class="txt-type" data-wait="1000ms"
+                data-words='["Flutter Developer", "UI/UX Enthusiast", "A Friend!", "Mentor", "Student"]'>
+            </span>
+        </div>
+
+        <div id="social-handles" class="flexbox-container">
+            <div class="dash"></div>
+        </div>
+
+        <div class="chat">
+            <a href="#contact-div" class="body2" id="chat-btn">LET'S CHAT!</a>
+        </div>
+
+        <div class="container-fluid image-bg-div">
+            <div class="profile-picture">
+                <img class="dp" src="images/me-new.png" alt="muhammad hamza profile picture">
+            </div>
+
+            <div id="overall-stats" class="stats stats-div"></div>
+        </div>
+    </div>
+
+    <div class="circle" id="circle-1"></div>
+    <div class="circle" id="circle-2"></div>
+
+    <div class="space"></div>
+
+    <div id="about" class="container-fluid about">
+        <div class="about-img">
+            <img id="about-img" src="images//about/about.png" alt="my journey highlights">
+        </div>
+
+        <div class="about-text">
+            <p id="about-me-title">About Me</p>
+
+            <h1 id="about-me-heading">Hello there! My name is Hamza</h1>
+
+            <p id="about-quote">
+                “If you are not going to tell the world who you are, the world is not going
+                to tell you, how good you are.”
+            </p>
+
+            <p id="about-me-text">A Self-taught developer who has developed solutions, MVPs, products and
+                systems for
+                more than 3 years. I have worked on different types of products such as Alert apps, Travel apps
+                with Airlines, Buses and Hotels booking. In addition to E-Commerce, lifestyle and story telling apps.
+                I enjoy learning new tech so I'm always exploring stuff. That's the reason I've worked with almost
+                every field out there starting with 3D model designing, game, web and mobile development, along
+                with Machine learning and so on. I've open sourced numerous projects on my GitHub and I've been
+                writing articles on medium for last 2 years now. In addition, I've been <span
+                    class="rich-letters">Google DSC lead</span>
+                and <span class="rich-letters">Microsoft
+                    Student Ambassador</span>. Currently, I'm leading official community <span class="rich-letters
+                        ">Flutter Islamabad, Pakistan.</span>
+                Apart from
+                tech, I love doing UI/UX design, playing
+                video games and editing videos.
+            </p>
+
+            <div class="download-resume">
+                <button type="button" onclick="downloadResume()" class="btn btn-success" id="download-btn">
+                    <i class="fa fa-file-text" style="color: black; background-color: transparent;"></i>
+                    <span
+                        style="color: black; background-color: transparent; font-size: 14px; padding-left: 8px;">Download
+                        Resume</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="tech" class=" tech-stack">
+        <div class="tech-stack-detail">
+            <p id="tech-stack-title">Tech Stack</p>
+            <p id="tech-stack-text">
+                Change is inevitable, so I keep on exploring new technology,
+                learn it in a minimal possible way and then build something
+                out of it to see how well I did :)
+            </p>
+
+            <p class="label-stack">Mobile development</p>
+            <div id="mobile-tech" data-aos="fade-right" data-aos-delay="200" class="tech-row"></div>
+
+            <p class="label-stack">Web development</p>
+            <div id="web-tech" data-aos="fade-right" data-aos-delay="300" class="tech-row"></div>
+
+            <p class="label-stack">Server side</p>
+            <div id="server-tech" data-aos="fade-right" data-aos-delay="400" class="tech-row"></div>
+
+            <p class="label-stack">Databases</p>
+            <div id="database-tech" data-aos="fade-right" data-aos-delay="500" class="tech-row"></div>
+
+            <p class="label-stack">Version controlloing & management</p>
+            <div id="vc-tech" data-aos="fade-right" data-aos-delay="600" class="tech-row"></div>
+
+            <p class="label-stack">UI/UX Design</p>
+            <div id="design-tech" data-aos="fade-right" data-aos-delay="700" class="tech-row"></div>
+        </div>
+
+        <div class="stack-illustration">
+            <img id="stack-illustration" src="images/svgs/stack.svg" alt="stack illustrations">
+        </div>
+    </div>
+
+    <div id="projects-div" class="container-fluid projects-div">
+        <p id="tech-stack-title">Projects</p>
+        <p id="tech-stack-text" style="background-color: transparent; text-align: center;">
+            Stuf I'm in loved working with
+        </p>
+
+        <div style="height: 50px;"></div>
+
+        <div id="projects" class="projects"></div>
+
+        <div class="see-more">
+            <a target="_blank" href="https://github.com/mhmzdev" class="body2" id="see-more-btn">See More</a>
+        </div>
+
+    </div>
+
+    <div id="exp" class="container-fluid exp-div">
+        <p id="tech-stack-title">Experience</p>
+        <p id="tech-stack-text" style="background-color: transparent; text-align: center;">
+            Reflection of what I've been doing so far, so long.
+        </p>
+
+    </div>
+
+    <div id="community" class="container-fluid community-div">
+        <div id="communities" class="communities"></div>
+
+        <div class="cw-info">
+            <span class="body1 cw-title">Community Work</span>
+            <p class="label cw-quote">"If you want to go fast, go alone. If you want to go far, go together"</p>
+
+            <div class="cw-stats-row">
+                <div class="cw-stats-div">
+                    <p class="heading1 cw-number">3</p>
+                    <p class="cw-stats-text">Global Communitites</p>
+                </div>
+                <div class="cw-stats-div">
+                    <p class="heading1 cw-number">50+</p>
+                    <p class="cw-stats-text">Hosted Events</p>
+                </div>
+                <div class="cw-stats-div">
+                    <p class="heading1 cw-number">2,500+</p>
+                    <p class="cw-stats-text">In-person Engagements</p>
+                </div>
+            </div>
+
+            <ul id="cw-points" class="cw-points"></ul>
+        </div>
+    </div>
+
+    <div id="contact-div" class="container-fluid contact-div">
+        <p id="tech-stack-title">Get in touch</p>
+        <p id="tech-stack-text" style="background-color: transparent; text-align: center;">
+            Let's build something together :)
+        </p>
+
+        <div class="contact-row">
+            <div class="current-date-div">
+                <div class="current-date-container">
+                    <div class="current-month">
+                        <span id="month"></span>
+                    </div>
+                    <div class="current-date">
+                        <span id="date"></span>
+                    </div>
+                    <div class="current-day">
+                        <span id="day"></span>
+                    </div>
+                </div>
+
+                <button type="button" onclick="onMeetClick()" class="btn btn-success" id="meet-btn">
+                    <i id="meet-icon" class="fa fa-video-camera"></i>
+                    <span id="meet-btn-text">Let's have a 15 min call</span>
+                </button>
+            </div>
+
+            <div id="contact-info-div" class="contact-info-div">
+                <div class="line"></div>
+                <div id="social-contact-icons" class="social-contact-icons"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="foot">
+        <span class="body2 foot-text">Designed & Crafted by </span>
+        <span style="background-color: transparent; color: var(--primary-green); padding-left: 5px; "> Muhammad
+            Hamza</span>
+    </footer>
+
+    <script type="text/javascript" src="js/header.js"></script>
+    <script type="text/javascript" src="js/typeWriter.js"></script>
+    <script type="text/javascript" src="js/tech.js"></script>
+    <script type="text/javascript" src="js/projects.js"></script>
+    <script type="text/javascript" src="js/experience.js"></script>
+    <script type="text/javascript" src="js/community.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+    <!-- JS core -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

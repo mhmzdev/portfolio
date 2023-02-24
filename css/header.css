@@ -1,0 +1,122 @@
+#chip {
+    background-color: var(--primary-green);
+    width: 10em;
+    height: 2em;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.tag-title {
+    background-color: transparent;
+}
+
+#tag {
+    color: white;
+}
+
+.txt-type>.txt {
+    color: white;
+    border-right: 0.1rem solid white;
+}
+
+.name {
+    color: white;
+}
+
+#first-name {
+    letter-spacing: 7px;
+    font-weight: 200;
+}
+
+#last-name {
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.flexbox-container {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.social-icon-wrapper {
+    margin-left: 1%;
+    padding: 0.75%;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: var(--bg-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: beat 1s;
+}
+
+@keyframes beat {
+    from {
+        transform: scale(0.0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.social-icon-wrapper:hover {
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px var(--primary-green);
+}
+
+.social-icon {
+    background-color: transparent;
+    color: var(--primary-green);
+}
+
+.chat {
+    width: 100%;
+}
+
+#chat-btn {
+    background-color: transparent;
+    color: var(--primary-green);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.value {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+.stats-label-column {
+    background-color: transparent;
+}
+
+.stats-label {
+    color: var(--text-light);
+    letter-spacing: 1px;
+    background-color: transparent;
+}
+
+.image-bg-div {
+    overflow: hidden;
+}
+
+
+.profile-picture {
+    right: 8%;
+    bottom: 0;
+    position: absolute;
+}
+
+.profile-picture,
+.dp {
+    background-color: transparent;
+}

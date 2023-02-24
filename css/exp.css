@@ -1,0 +1,63 @@
+.exp-div {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exp-card {
+    margin-top: 5em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-dark);
+    width: 90%;
+    border-radius: 8px;
+}
+
+.exp-meta {
+    background-color: transparent;
+}
+
+.exp-org {
+    color: var(--primary-green);
+}
+
+.exp-position {
+    color: var(--text-light);
+}
+
+.exp-session {
+    color: white;
+}
+
+.exp-tech {
+    color: white;
+    font-weight: 700;
+}
+
+.exp-tech-list {
+    background-color: transparent;
+    padding: 0;
+    padding-left: 10%;
+}
+
+.exp-tech-item {
+    line-height: 30px;
+    color: white;
+}
+
+.exp-detail {
+    width: 70%;
+    background-color: transparent;
+    margin-left: 3%;
+    line-height: 30px;
+}
+
+.exp-detail-item {
+    color: white;
+}

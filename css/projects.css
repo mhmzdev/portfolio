@@ -1,0 +1,127 @@
+.projects-div {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-dark);
+}
+
+#project-subtitle {
+    color: white;
+    width: 400px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    justify-content: center;
+}
+
+.project-card {
+    margin: 1em;
+    background-color: var(--bg);
+    height: 300px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0px 13px 10px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+}
+
+.p-type {
+    margin: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: var(--bg-dark);
+    position: absolute;
+    color: var(--primary-green);
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    transition: 0.5s;
+}
+
+.p-image-bg {
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.p-title {
+    color: white;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+
+.p-labels {
+    padding-left: 3%;
+    display: flex;
+}
+
+.p-label-icon {
+    background-color: transparent;
+    color: var(--primary-green);
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+.p-label {
+    margin-right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: var(--bg-dark);
+    transition: 0.5s;
+}
+
+.p-label:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0px 0px 10px var(--primary-green);
+}
+
+.p-label:hover .p-label-icon {
+    color: var(--bg-dark);
+}
+
+.p-label-text {
+    margin-left: 15%;
+    background-color: transparent;
+    color: var(--primary-green);
+    transition: .5s;
+}
+
+.p-label:hover .p-label-text {
+    color: var(--bg-dark);
+}
+
+.project-card:hover {
+    box-shadow: 0px 5px 10px var(--primary-green);
+}
+
+.see-more {
+    padding-top: 3%;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+}
+
+#see-more-btn {
+    color: var(--primary-green);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: 700;
+}
