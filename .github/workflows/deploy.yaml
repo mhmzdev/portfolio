@@ -1,9 +1,5 @@
 name: Build and Deploy
-
-on: 
-  push:
-    tags:
-      - "*"
+on: push
 
 jobs:
     hosting:
