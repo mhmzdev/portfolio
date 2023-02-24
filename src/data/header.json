@@ -4,13 +4,6 @@
         "Muhammad",
         "Hamza"
     ],
-    "typeWriterLabels": [
-        "Flutter Developer",
-        "UI/UX Enthusiast",
-        "A Friend!",
-        "Student forever",
-        "Mentor"
-    ],
     "socialLinks": [
         {
             "icon": "fa fa-linkedin-square",
@@ -53,6 +46,5 @@
             "text-1": "Content",
             "text-2": "Reach & Views"
         }
-    ],
-    "resumeURL": "https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view"
+    ]
 }

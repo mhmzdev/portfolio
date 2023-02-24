@@ -7,10 +7,27 @@ document.addEventListener("DOMContentLoaded", async function () {
     let socials = data["socialLinks"];
     let stats = data["stats"];
 
+    mapMetaDataInHeader(data);
     mapSocialLinksData(socials);
     mapStatsData(stats);
-
 });
+
+function mapMetaDataInHeader(data) {
+    let tag = data["tag"];
+    var tagElement = document.getElementById("tag-label");
+    tagElement.innerText = tag;
+
+    let name = data["name"];
+    let firstName = name[0];
+    let lastName = name[1];
+
+    var firstNameElement = document.getElementById("first-name");
+    firstNameElement.innerHTML = firstName;
+
+    var lastNameElement = document.getElementById("last-name");
+    lastNameElement.innerHTML = lastName;
+
+}
 
 function mapSocialLinksData(socials) {
     // icons in top section

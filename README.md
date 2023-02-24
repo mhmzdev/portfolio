@@ -19,6 +19,9 @@ Following is the tech stack for this:
 - You will be needing [Go live][go-live-link] extension in case you want to run this locally on VS Code.
 - Otherwise, you can simply open `index.html` file, make changes and refresh the page to see effect
 
+### 📝 Data
+- Just update files in `src/data/` accordingly and you'll be seeing effect on the FE. Except for the About section, that needs to be fixed from `index.html`
+
 
 ### 👀 Look'n Feel
 Here is some look'n feel from the implementation
