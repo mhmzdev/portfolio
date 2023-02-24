@@ -1,5 +1,8 @@
 name: Build and Deploy
 on: push
+  tags:
+    - "*"
+    
 jobs:
     hosting:
       name: Deploy Website
