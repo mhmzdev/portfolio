@@ -14,6 +14,11 @@ function mapContactDetails() {
             "icon": "fa fa-envelope",
             "label": "hamza.6.shakeel@gmail.com",
             "link": "mailto:hamza.6.shakeel@gmail.com"
+        },
+        {
+            "icon": "images/svgs/upwork.svg",
+            "label": "Hire Me",
+            "link": "https://www.upwork.com/freelancers/~0197b0f6aaeba9675f"
         }
     ];
 
@@ -29,9 +34,14 @@ function mapContactDetails() {
         card.href = link;
         card.target = "_blank";
 
-        var iconDiv = document.createElement("i");
+        var iconDiv = label == "Hire Me" ? document.createElement("img") : document.createElement("i");
+        if (label != "Hire Me") {
+            iconDiv.className = icon;
+        } else {
+            iconDiv.src = icon;
+            iconDiv.style.height = "24px";
+        }
         iconDiv.id = "mail-icon";
-        iconDiv.className = icon;
 
         var labelDiv = document.createElement("span");
         labelDiv.className = "body2 contact-label";
