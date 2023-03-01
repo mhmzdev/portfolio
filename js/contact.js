@@ -7,8 +7,8 @@ function mapContactDetails() {
     let contactInfo = [
         {
             "icon": "fa fa-phone",
-            "label": "+92 346 0159889",
-            "link": "https://wa.me/923460159889"
+            "label": "+92 311 1559877",
+            "link": "https://wa.me/923111559877"
         },
         {
             "icon": "fa fa-envelope",
