@@ -61,7 +61,7 @@ function mapContactDetails() {
 }
 
 function onMeetClick() {
-    window.open("https://calendly.com/mhmzdev/15min", '_blank');
+    window.open("https://calendly.com/mhmzdev/meet", '_blank');
 }
 
 function currentDate() {
