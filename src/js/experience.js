@@ -8,7 +8,7 @@ function mapExperienceData() {
     let exp = [
         {
             "org": "Sastaticket.pk",
-            "position": "Associate Software Engineer",
+            "position": "Software Engineer",
             "duration": "Jan 2022 - Present",
             "technologies": [
                 "Flutter",
@@ -36,8 +36,81 @@ function mapExperienceData() {
             ]
         },
         {
-            "org": "Voxlabs",
-            "position": "Flutter/Dart Intern",
+            "org": "Donation App Ltd. | UK",
+            "position": "Consultant & Software Engineer",
+            "duration": "Aug 2021 - Present",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "GitHub Actions",
+                "Supabase",
+                "Firebase",
+                "Fintech - Payments",
+                "REST APIs",
+                "Dart package",
+                "Javascript",
+                "Cloud functions",
+                "Node.js",
+                "Express.js",
+            ],
+            "details": [
+                "Developed first MVP for android application",
+                "Upgraded MVP to latest flutter SDK as the MVP was developed in flutter 1.x.x",
+                "Currently handling the BETA version for the mobile app using flutter (android/iOS) both",
+                "Written cloud functions on firebase to handling some of the backend logic that needs to be separated from mobile application layer",
+                "Developed web application using flutter for registrations of charities and marketing purposes",
+                "Add stripe and paypal as payment gateways",
+                "Followed bloc architecture and state management for scalable application",
+                "Currently handling keen operations for penetration testing",
+                "Implemented caching techniques for better UX",
+            ]
+        },
+        {
+            "org": "Eja Rides | Albania",
+            "position": "Consultant & Lead Mobile Developer",
+            "duration": "Sep 2022 - Jan 2023",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "GitHub Actions",
+                "Firebase",
+                "Fintech - Payments",
+                "REST APIs",
+                "GraphQL",
+            ],
+            "details": [
+                "Upgraded the application to complete new UI and UX",
+                "Uplifted the mobile apps architecture for better performance and better code structure",
+                "Integrated REST and GraphQL structures of APIs for various purposes",
+                "Added Monri payment gateway for testing purposes as this was commonly used in Albania and nearest regions",
+                "Consulted for better UI and UX for new design for both the mobile apps",
+                "Handled code-sharing concept as there were two mobile apps involved i.e. Driver and Rider app",
+                "Keen discussion with stakeholders on how to improve the product overall",
+                "Helped hiring and taking interviews for increasing the team count",
+            ]
+        },
+        {
+            "org": "ZOffers | India",
+            "position": "Consultant mobile app",
+            "duration": "Jul 2022 - Aug 2022",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "Firebase",
+                "Bit-Bucket",
+                "Fintech - Payments",
+                "REST APIs",
+            ],
+            "details": [
+                "Consultation for mobile team and interns for writing better code",
+                "Better ways of handling complex code base and improve architecture",
+                "Reviewing PRs of the mobile team",
+                "Overall consulation for mobile app development",
+            ]
+        },
+        {
+            "org": "Sastaticket.pk",
+            "position": "SWE Intern",
             "duration": "Oct 2021 - Jan 2022",
             "technologies": [
                 "Flutter",
@@ -56,7 +129,7 @@ function mapExperienceData() {
         },
         {
             "org": "Storius",
-            "position": "Flutter/Dart Intern",
+            "position": "Flutter Developer",
             "duration": "Nov 2020 - Jan 2021",
             "technologies": [
                 "Flutter",
@@ -77,8 +150,8 @@ function mapExperienceData() {
         },
         {
             "org": "Multi TeleSoft",
-            "position": "Flutter Developer",
-            "duration": "Fev 2020 - Apr 2020",
+            "position": "Lead Software Engineer",
+            "duration": "Feb 2020 - Apr 2020",
             "technologies": [
                 "Flutter",
                 "Dart",

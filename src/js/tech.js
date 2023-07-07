@@ -65,7 +65,7 @@ function mapTechData() {
             "type": "database-tech"
         },
         {
-            "name": "SQL",
+            "name": "Postgres SQL",
             "icon": "images/tech/sql.svg",
             "type": "database-tech"
         },
