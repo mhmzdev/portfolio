@@ -1,3 +1,7 @@
+#header-div {
+    padding-bottom: 2.5%;
+}
+
 #chip {
     background-color: var(--primary-green);
     width: 10em;
