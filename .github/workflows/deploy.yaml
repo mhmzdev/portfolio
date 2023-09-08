@@ -1,36 +1,36 @@
-name: Build and Deploy
-on: push
+# name: Build and Deploy
+# on: push
 
-jobs:
-    hosting:
-      name: Deploy Website
-      runs-on: ubuntu-latest
-      steps:
-        # Checkout Repository
-        - uses: actions/checkout@v1
-          with:
-            fetch-depth: 0
-            token: ${{ secrets.GP_TOKEN }}
+# jobs:
+#     hosting:
+#       name: Deploy Website
+#       runs-on: ubuntu-latest
+#       steps:
+#         # Checkout Repository
+#         - uses: actions/checkout@v1
+#           with:
+#             fetch-depth: 0
+#             token: ${{ secrets.GP_TOKEN }}
 
-        # Git configure
-        - name: Setup git configs
-          run: |
-            git checkout main
-            git config --global user.name "mhmzdev"
-            git config --global user.email "hamza.6.shakeel@gmail.com"
+#         # Git configure
+#         - name: Setup git configs
+#           run: |
+#             git checkout main
+#             git config --global user.name "mhmzdev"
+#             git config --global user.email "hamza.6.shakeel@gmail.com"
 
-        - name: Build and Deploy
-          uses: JamesIves/github-pages-deploy-action@releases/v3
-          with:
-            ACCESS_TOKEN: ${{ secrets.GP_TOKEN }}
-            BRANCH: gh-pages # The branch the action should deploy to.
-            FOLDER: src # The folder the action should deploy.
+#         - name: Build and Deploy
+#           uses: JamesIves/github-pages-deploy-action@releases/v3
+#           with:
+#             ACCESS_TOKEN: ${{ secrets.GP_TOKEN }}
+#             BRANCH: gh-pages # The branch the action should deploy to.
+#             FOLDER: src # The folder the action should deploy.
 
-        # Deploy Firebase Hosting
-        - name: Deploy Firebase Hosting
-          uses: w9jds/firebase-action@master
-          with:
-            args: deploy --only hosting:mhmzdev-666 # ID of project at firebase
-          env:
-            FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-            PROJECT_PATH: ./
+#         # Deploy Firebase Hosting
+#         - name: Deploy Firebase Hosting
+#           uses: w9jds/firebase-action@master
+#           with:
+#             args: deploy --only hosting:mhmzdev-666 # ID of project at firebase
+#           env:
+#             FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+#             PROJECT_PATH: ./

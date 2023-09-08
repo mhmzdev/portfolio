@@ -125,7 +125,7 @@ function mapExperienceData() {
         },
         {
             "org": "Storius",
-            "position": "Flutter Developer",
+            "position": "Flutter/Dart Intern",
             "duration": "Nov 2020 - Jan 2021",
             "technologies": [
                 "Flutter",
@@ -146,7 +146,7 @@ function mapExperienceData() {
         },
         {
             "org": "Multi TeleSoft",
-            "position": "Lead Software Engineer",
+            "position": "Lead Flutter Developer",
             "duration": "Feb 2020 - Apr 2020",
             "technologies": [
                 "Flutter",
