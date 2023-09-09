@@ -55,6 +55,11 @@ function mapTechData() {
             "type": "server-tech"
         },
         {
+            "name": "dart_frog",
+            "icon": "images/tech/dart.svg",
+            "type": "server-tech"
+        },
+        {
             "name": "Firebase",
             "icon": "images/tech/firebase.svg",
             "type": "database-tech"
