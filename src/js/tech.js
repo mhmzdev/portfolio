@@ -50,13 +50,13 @@ function mapTechData() {
             "type": "server-tech"
         },
         {
-            "name": "REST Apis",
+            "name": "REST APIs",
             "icon": "images/tech/api.svg",
             "type": "server-tech"
         },
         {
-            "name": "dart_frog",
-            "icon": "images/tech/dart.svg",
+            "name": "Dart Frog",
+            "icon": "images/tech/dart_frog.svg",
             "type": "server-tech"
         },
         {
@@ -75,7 +75,7 @@ function mapTechData() {
             "type": "database-tech"
         },
         {
-            "name": "Git & GitHub",
+            "name": "GitHub",
             "icon": "images/tech/github.svg",
             "type": "vc-tech"
         },
@@ -114,8 +114,8 @@ function mapTechData() {
         // icon
         var techIconImg = document.createElement("img");
         techIconImg.className = "tech-icon";
-        if (tech[i]["name"] == "Node.js") {
-            techIconImg.style.height = "20px";
+        if (tech[i]["name"] == "Node.js" || tech[i]["name"] == "Dart Frog") {
+            techIconImg.style.height = "25px";
         }
 
         // tech name
