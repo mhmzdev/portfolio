@@ -58,14 +58,23 @@ function mapProjectsData() {
             ]
         },
         {
-            "title": "COVID-19 Tracker",
-            "image": "images/projects/covid.png",
-            "type": "Open Source",
+            "title": "Eja Rides",
+            "image": "images/projects/eja.png",
+            "type": "Product",
             "labels": [
                 {
-                    "title": "GitHub",
-                    "link": "https://github.com/mhmzdev/covid19-tracker-app"
-                }
+                    "title": "Web",
+                    "link": "https://ejaapp.com/en"
+                },
+                {
+                    "title": "App",
+                    "link": "https://ejaapp.com/en"
+                },
+                {
+                    "title": "Play",
+                    "link": "https://ejaapp.com/en"
+                },
+
             ]
         },
         {
@@ -75,11 +84,11 @@ function mapProjectsData() {
             "labels": [
                 {
                     "title": "App",
-                    "link": "https://apps.apple.com/hk/app/storius-app/id1581928786?l=en"
+                    "link": "https://apps.apple.com/us/app/id1666697736"
                 },
                 {
                     "title": "Play",
-                    "link": "https://play.google.com/store/apps/details?id=com.storius.storiusapp"
+                    "link": "https://play.google.com/store/apps/details?id=com.ejaapp.rider"
                 },
                 {
                     "title": "Web",
