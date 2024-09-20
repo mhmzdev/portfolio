@@ -85,11 +85,6 @@ function mapTechData() {
             "type": "vc-tech"
         },
         {
-            "name": "Trello",
-            "icon": "images/tech/trello.svg",
-            "type": "vc-tech"
-        },
-        {
             "name": "Notion",
             "icon": "images/tech/notion.svg",
             "type": "vc-tech"

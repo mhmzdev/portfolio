@@ -38,7 +38,7 @@ function mapExperienceData() {
         {
             "org": "Donation App Ltd. | UK",
             "position": "Consultant & Software Engineer",
-            "duration": "Aug 2021 - Present",
+            "duration": "Aug 2021 - Aug 2022",
             "technologies": [
                 "Flutter/Dart",
                 "GitHub Actions",
