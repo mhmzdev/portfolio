@@ -92,17 +92,17 @@ function mapSocialLinksData() {
 function mapStatsData() {
     let stats = [
         {
-            "value": "~4",
+            "value": "~5",
             "text-1": "Years",
             "text-2": "Experience"
         },
         {
-            "value": "35+",
+            "value": "40+",
             "text-1": "Projects Completed",
             "text-2": "in 10+ Countries"
         },
         {
-            "value": "~110k",
+            "value": "~120k",
             "text-1": "Content",
             "text-2": "Reach & Views"
         }
