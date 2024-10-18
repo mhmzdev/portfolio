@@ -36,7 +36,35 @@ function mapExperienceData() {
             ]
         },
         {
-            "org": "Donation App Ltd. | UK",
+            "org": "Dexplat | PK",
+            "position": "Co-Founder & Technical Lead",
+            "duration": "May 2022 - Present",
+            "technologies": [
+                "UI/UX Design",
+                "Mobile app development",
+                "Web development",
+                "SQA & Testing",
+                "Project Management",
+                "MVP Development",
+                "Rapid Prototyping",
+                "Agile Methodology",
+            ],
+            "details": [
+                "Started this venture of mine 2 years ago with a vision of providing best services and opportunities to the youth of Pakistan",
+                "Working as co-founder and managing the role of technical lead at Dexplat Technologies",
+                "Team management and handling the development of the products",
+                "Providing services to various clients across the globe in various niches",
+                "Specialized in Flutter and Dart for app development",
+                "Handling the backend and frontend of the products",
+                "Developing and maintaining the products with the best practices",
+                "Following the agile methodology for the development of the products",
+                "Rapid development and Rapid testing process to handle MVPs and their quick releases",
+                "Handling the team of developers and providing them with the best practices",
+                "Handling the client communication and providing them with optimal solutions possible",
+            ]
+        },
+        {
+            "org": "Donation App | UK",
             "position": "Consultant & Software Engineer",
             "duration": "Aug 2021 - Aug 2022",
             "technologies": [
@@ -124,7 +152,7 @@ function mapExperienceData() {
             ]
         },
         {
-            "org": "Storius",
+            "org": "Storius | Hong Kong",
             "position": "Flutter/Dart Intern",
             "duration": "Nov 2020 - Jan 2021",
             "technologies": [
@@ -145,7 +173,7 @@ function mapExperienceData() {
             ]
         },
         {
-            "org": "Multi TeleSoft",
+            "org": "Multi TeleSoft | PK",
             "position": "Lead Flutter Developer",
             "duration": "Feb 2020 - Apr 2020",
             "technologies": [
@@ -188,7 +216,11 @@ function mapExperienceData() {
 
         var technologiesHeading = document.createElement("span");
         technologiesHeading.className = "body2 exp-tech";
-        technologiesHeading.innerHTML = "Technologies";
+        if (orgName.innerHTML == "Dexplat | PK") {
+            technologiesHeading.innerHTML = "Services";
+        } else {
+            technologiesHeading.innerHTML = "Technologies";
+        }
 
         var technologiesList = document.createElement("ul");
         technologiesList.className = "exp-tech-list";
