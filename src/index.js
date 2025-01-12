@@ -86,5 +86,5 @@ function onScroll(event) {
 }
 
 function downloadResume() {
-    window.open("https://drive.google.com/drive/u/0/folders/1E6NxJlmnW2lTYTszcbODdpXiPFYe_kBM", "_blank");
+    window.open("https://mhmz.dev/resume", "_blank");
 }
