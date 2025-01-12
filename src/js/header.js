@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function mapMetaDataInHeader() {
     var tagElement = document.getElementById("tag-label");
-    tagElement.innerText = 'Full Stack Flutter Expert';
+    tagElement.innerText = 'Software Engineer';
 
     let firstName = 'Muhammad';
     let lastName = 'Hamza';
@@ -97,7 +97,7 @@ function mapStatsData() {
             "text-2": "Experience"
         },
         {
-            "value": "40+",
+            "value": "45+",
             "text-1": "Projects Completed",
             "text-2": "in 10+ Countries"
         },

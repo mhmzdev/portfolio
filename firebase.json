@@ -11,6 +11,13 @@
         "source": "**",
         "destination": "/index.html"
       }
+    ],
+    "redirects": [
+      {
+        "source": "/resume",
+        "destination": "https://drive.google.com/file/d/1dZQLZEvLPnrZx_5DzU9XJswuiJaAkTU6/view",
+        "type": 301
+      }
     ]
   }
 }
